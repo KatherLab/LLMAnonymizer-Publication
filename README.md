@@ -1,8 +1,9 @@
 # LLM Anonymizer 
 
 > [!Important]
-> This repository is just a snapshot of an ongoing development process. This repository is not under active development and will be replaced by a newer and actively developed version in the future. 
-> Use for research purposes only!
+> This repository is just a snapshot of an ongoing development process. This repository is not under active development and will be replaced by a newer and actively developed version in the future.
+> 
+> **Use for research purposes only!**
 
 ![alt text](image.png)
 
