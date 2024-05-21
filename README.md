@@ -28,9 +28,8 @@ Examples of doctoral reports in various formats can be found in the `examples` d
 1. Download and extract or build [llama-cpp](https://github.com/ggerganov/llama.cpp) for your operating system.
 2. Download desired models (must be compatible with llama-cpp, in gguf format)
 3. Update the config.yml file with the downloaded models accordingly.
-4. (Optional: Download tokenizer jsons for a specific model, so the anonymizer can check wheter your documents will fit into the context window. e.g. [Llama-3](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main)) 
-5. If you intend to use OCR: Install [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/installation.html#)
-6. Create a python venv or a conda environment (tested with *Python 3.11.5*) with requirements.txt:
+4. If you intend to use OCR: Install [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/installation.html#)
+5. Create a python venv or a conda environment (tested with *Python 3.11.5*) with requirements.txt:
   - `python -m venv venv`
   - `source venv/bin/activate`
   - `pip install -r requirements.txt`
@@ -51,7 +50,6 @@ Run:
 |--config_file|Custom path to the configuration file.|config.yml|
 |--llamacpp_port|On which port to run the llama-cpp server. Default: 2929|2929|
 |--debug|When set, the web app will be started in debug mode and with auto-reload, for debugging and development||
-|--tokenizer_path|Optional: When you download tokenizer json files. If set the webapp will check the length of the documents in tokens. Default: ./tokenizer|/path/to/tokenizer/configjsonfiles|
 
 ## Usage
 

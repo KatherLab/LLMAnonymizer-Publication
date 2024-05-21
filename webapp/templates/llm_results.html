@@ -93,6 +93,8 @@
     </div>
     {% endfor %}
 
+    <div id="flash-messages" class="container mt-3"></div>
+
 </div>
 
 
@@ -155,6 +157,26 @@
         document.getElementById('load_complete').classList.remove('hidden');
     });
 
+
+    socket.on('progress_warning', function (data) {
+        var job_id = data.job_id;
+        var warning_message = data.message;
+        var progressBar = document.getElementById('progress-' + job_id);
+        progressBar.className = 'progress-bar bg-warning';
+
+        var flashMessageContainer = document.getElementById('flash-messages');
+        var flashMessage = document.createElement('div');
+        flashMessage.className = 'alert alert-warning alert-dismissible fade show';
+        flashMessage.role = 'alert';
+        flashMessage.innerHTML = '<strong>Warning!</strong> ' + warning_message +
+            '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>';
+        flashMessageContainer.appendChild(flashMessage);
+
+        // Close flashed message when close button is clicked
+        flashMessage.querySelector('.btn-close').addEventListener('click', function () {
+            flashMessageContainer.removeChild(flashMessage);
+        });
+    });
 
 
 </script>
