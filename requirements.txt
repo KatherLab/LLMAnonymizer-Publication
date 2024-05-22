@@ -18,7 +18,7 @@ Flask==3.0.3
 Flask-SocketIO==5.3.6
 Flask-WTF==1.2.1
 fonttools==4.51.0
-fpdf==1.7.2
+fpdf2==2.7.9
 fsspec==2024.5.0
 h11==0.14.0
 huggingface-hub==0.23.0
