@@ -4,17 +4,10 @@ from wtforms import StringField, SubmitField, TextAreaField, FileField, FloatFie
 from wtforms.validators import ValidationError
 import os
 
-default_prompt = r"""[INST] <<SYS>>
-Du bist ein hilfreicher medizinischer Assistent. Im Folgenden findest du Berichte. Bitte extrahiere die gesuchte Information wortwörtlich aus dem Bericht. Wenn du die Information nicht findest, antworte null. 
-<</SYS>>
-[/INST]
+default_prompt = r"""You are a helpful medical assistant. Below you will find reports. Please extract the requested information verbatim from the report. If you do not find the information, respond with null.
 
-[INST]
-Das ist der Bericht:
-{report}
-
-Extrahiere diese Elemente aus dem Text: {symptom}? 
-[/INST]"""
+This is the report:
+{report}"""
 
 default_grammar = r"""
 root   ::= allrecords
@@ -22,17 +15,17 @@ value  ::= object | array | string | number | ("true" | "false" | "null") ws
 
 allrecords ::= (
   "{"
-  ws "\"patientennachname\":" ws string ","
-  ws "\"patientenvorname\":" ws string ","
-  ws "\"patientenname\":" ws string ","
-  ws "\"patientengeschlecht\":" ws string ","
-  ws "\"patientengeburtsdatum\":" ws string ","
-  ws "\"patientenid\":" ws idartiges ","
-  ws "\"patientenstrasse\":" ws string ","
-  ws "\"patientenhausnummer\":" ws string ","
-  ws "\"patientenpostleitzahl\":" ws plz ","
-  ws "\"patientenstadt\":" ws string ","
-  ws "\"patientengeburtsname\":" ws string ","
+  ws "\"patientLastName\":" ws string ","
+  ws "\"patientFirstName\":" ws string ","
+  ws "\"patientName\":" ws string ","
+  ws "\"patientGender\":" ws string ","
+  ws "\"patientBirthDate\":" ws string ","
+  ws "\"patientID\":" ws idlike ","
+  ws "\"patientStreet\":" ws string ","
+  ws "\"patientHouseNumber\":" ws string ","
+  ws "\"patientPostalCode\":" ws postalcode ","
+  ws "\"patientCity\":" ws string ","
+  ws "\"patientBirthName\":" ws string ","
   ws "}"
   ws
 )
@@ -62,8 +55,8 @@ string ::=
 
 number ::= ("-"? ([0-9] | [1-9] [0-9]*)) ("." [0-9]+)? ([eE] [-+]? [0-9]+)? ws
 
-plz ::= ("\"" [0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
-idartiges ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
+postalcode ::= ("\"" [0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
+idlike ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
 tel ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?[0-9]?[0-9]? "\"" | "\"\"") ws
 
 # Optional space: by convention, applied in this grammar after literal chars when allowed

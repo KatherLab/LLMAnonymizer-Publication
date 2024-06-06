@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="display: none;">
                 <div class="form-group col-md-12">
                     {{ form.variables.label(class="form-control-label") }}
 
@@ -103,14 +103,14 @@
                     {{ form.grammar.label(class="form-control-label") }}
 
                     {% if form.grammar.errors %}
-                    {{ form.grammar(class="form-control form-control-lg is-invalid", rows="10") }}
+                    {{ form.grammar(class="form-control form-control-lg is-invalid", rows="6") }}
                     <div class="invalid-feedback">
                         {% for error in form.grammar.errors %}
                         <span>{{ error }}</span>
                         {% endfor %}
                     </div>
                     {% else %}
-                    {{ form.grammar(class="form-control form-control-lg", rows="10") }}
+                    {{ form.grammar(class="form-control form-control-lg", rows="6") }}
                     {% endif %}
                 </div>
             </div>
