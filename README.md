@@ -111,14 +111,16 @@ value  ::= object | array | string | number | ("true" | "false" | "null") ws
 
 allrecords ::= (
   "{"
-  ws "\"patientennachname\":" ws string ","
-  ws "\"patientenvorname\":" ws string ","
-  ws "\"patientengeburtsdatum\":" ws string ","
-  ws "\"patientenid\":" ws string ","
-  ws "\"patientenstrasse\":" ws string ","
-  ws "\"patientenhausnummer\":" ws string ","
-  ws "\"patientenpostleitzahl\":" ws string ","
-  ws "\"patientenstadt\":" ws string ","
+  ws "\"patientLastName\":" ws string ","
+  ws "\"patientFirstName\":" ws string ","
+  ws "\"patientName\":" ws string ","
+  ws "\"patientHonorific\":" ws string ","
+  ws "\"patientBirthDate\":" ws string ","
+  ws "\"patientID\":" ws idlike ","
+  ws "\"patientStreet\":" ws string ","
+  ws "\"patientHouseNumber\":" ws string ","
+  ws "\"patientPostalCode\":" ws postalcode ","
+  ws "\"patientCity\":" ws string ","
   ws "}"
   ws
 )
@@ -142,14 +144,14 @@ array  ::=
             value
     ("," ws value)*
   )? "]" ws
-
+char ::= [^"\\] | "\\" (["\\/bfnrt] | "u" [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F])
 string ::=
-  "\"" (
-    [^"\\] |
-    "\\" (["\\/bfnrt] | "u" [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F]) # escapes
-  )* "\"" ws
+  "\"" (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char (char)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)?)? "\"" ws
 
 number ::= ("-"? ([0-9] | [1-9] [0-9]*)) ("." [0-9]+)? ([eE] [-+]? [0-9]+)? ws
+
+postalcode ::= ("\"" [0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
+idlike ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]? "\"" | "\"\"") ws
 
 # Optional space: by convention, applied in this grammar after literal chars when allowed
 ws ::= ([ \t\n])?

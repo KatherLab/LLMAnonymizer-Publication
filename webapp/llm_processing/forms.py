@@ -4,7 +4,7 @@ from wtforms import StringField, SubmitField, TextAreaField, FileField, FloatFie
 from wtforms.validators import ValidationError
 import os
 
-default_prompt = r"""You are a helpful medical assistant. Below you will find reports. Please extract the requested information verbatim from the report. If you do not find the information, respond with null.
+default_prompt = r"""You are a helpful medical assistant. Below you will find reports. Please extract the requested information verbatim from the report. If you do not find the information, respond with null. Please generate in the same format as in the text. 
 
 This is the report:
 {report}"""
@@ -18,14 +18,13 @@ allrecords ::= (
   ws "\"patientLastName\":" ws string ","
   ws "\"patientFirstName\":" ws string ","
   ws "\"patientName\":" ws string ","
-  ws "\"patientGender\":" ws string ","
+  ws "\"patientHonorific\":" ws string ","
   ws "\"patientBirthDate\":" ws string ","
   ws "\"patientID\":" ws idlike ","
   ws "\"patientStreet\":" ws string ","
   ws "\"patientHouseNumber\":" ws string ","
   ws "\"patientPostalCode\":" ws postalcode ","
   ws "\"patientCity\":" ws string ","
-  ws "\"patientBirthName\":" ws string ","
   ws "}"
   ws
 )
@@ -56,8 +55,7 @@ string ::=
 number ::= ("-"? ([0-9] | [1-9] [0-9]*)) ("." [0-9]+)? ([eE] [-+]? [0-9]+)? ws
 
 postalcode ::= ("\"" [0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
-idlike ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] "\"" | "\"\"") ws
-tel ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?[0-9]?[0-9]? "\"" | "\"\"") ws
+idlike ::= ("\"" [0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]? "\"" | "\"\"") ws
 
 # Optional space: by convention, applied in this grammar after literal chars when allowed
 ws ::= ([ \t\n])?

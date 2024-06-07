@@ -158,7 +158,7 @@ def main():
             job_id = "reportredaction_" + model_name.replace('_', '-').replace(' ', '') + "_" + prefix + "_" + secrets.token_urlsafe(8)
             update_progress(job_id=job_id, progress=(0, len(df), True))
 
-            # report_list = generate_report_list(df, job_id, session['pdf_file_zip'], session['annotation_file'])
+            # generate_report_list(df, job_id, session['pdf_file_zip'], session['annotation_file'], session.get('enable_fuzzy', False), session.get('threshold', 90), session.get('exclude_single_chars', False), session.get('scorer', None))
 
             print("Start Job")
 
@@ -168,7 +168,11 @@ def main():
                 df=df,
                 job_id=job_id,
                 pdf_file_zip=session['pdf_file_zip'],
-                annotation_file=session['annotation_file']
+                annotation_file=session['annotation_file'],
+                enable_fuzzy=session.get('enable_fuzzy', False), 
+                threshold=session.get('threshold', 90), 
+                exclude_single_chars=session.get('exclude_single_chars', False), 
+                scorer=session.get('scorer', None)
             )
 
             # wait 0.5s
@@ -186,7 +190,7 @@ def main():
     return render_template("report_redaction_form.html", form=form, progress=job_progress)
 
 
-def generate_report_list(df, job_id, pdf_file_zip, annotation_file):
+def generate_report_list(df, job_id, pdf_file_zip, annotation_file, enable_fuzzy=False, threshold=90, exclude_single_chars=False, scorer=None):
     print("Run Report List Generator")
     report_list = []
 
@@ -227,7 +231,7 @@ def generate_report_list(df, job_id, pdf_file_zip, annotation_file):
 
             print("Load Redacted PDF")
             report_dict['redacted_pdf_filepath'], report_dict['dollartext_redacted_dict'], report_dict['personal_info_dict'], report_dict['fuzzy_matches_dict'] = load_redacted_pdf(
-                personal_info_dict, orig_pdf_path, df, row['id'], text=sofastring)
+                personal_info_dict, orig_pdf_path, df, row['id'], text=sofastring, enable_fuzzy=enable_fuzzy, threshold=threshold, exclude_single_chars=exclude_single_chars, scorer=scorer)
 
             report_dict['scores'] = {}
 
@@ -328,7 +332,7 @@ def accumulate_metrics(report_list):
         for metric in metrics:
             if metric in ['true_positives', 'false_positives', 'true_negatives', 'false_negatives']:
                 labelwise_metrics[label][metric] = int(
-                    score_dict[metric] / num_samples)
+                    score_dict[metric]) 
             else:
                 labelwise_metrics[label][metric] = score_dict[metric] / num_samples
 

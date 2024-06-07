@@ -331,123 +331,163 @@
     "%ID" : 1,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 160,
-    "end" : 166,
-    "label" : "patientenvorname"
+    "begin" : 144,
+    "end" : 146,
+    "label" : "patientHonorific"
   }, {
     "%ID" : 3,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 167,
-    "end" : 173,
-    "label" : "patientennachname"
+    "begin" : 148,
+    "end" : 153,
+    "label" : "patientFirstName"
   }, {
     "%ID" : 4,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 160,
-    "end" : 173,
-    "label" : "patientenname"
+    "begin" : 154,
+    "end" : 160,
+    "label" : "patientLastName"
   }, {
     "%ID" : 5,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 183,
-    "end" : 197,
-    "label" : "patientengeburtsdatum"
+    "begin" : 170,
+    "end" : 187,
+    "label" : "patientBirthDate"
   }, {
     "%ID" : 6,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 211,
-    "end" : 219,
-    "label" : "patientenstrasse"
+    "begin" : 201,
+    "end" : 215,
+    "label" : "patientStreet"
   }, {
     "%ID" : 7,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 220,
-    "end" : 221,
-    "label" : "patientenhausnummer"
+    "begin" : 219,
+    "end" : 224,
+    "label" : "patientPostalCode"
   }, {
     "%ID" : 8,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 223,
-    "end" : 228,
-    "label" : "patientenpostleitzahl"
+    "begin" : 216,
+    "end" : 217,
+    "label" : "patientHouseNumber"
   }, {
     "%ID" : 9,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 231,
-    "end" : 239,
-    "label" : "patientenstadt"
+    "begin" : 249,
+    "end" : 255,
+    "label" : "patientID"
   }, {
     "%ID" : 10,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 256,
-    "end" : 262,
-    "label" : "patientenid"
+    "begin" : 226,
+    "end" : 232,
+    "label" : "patientCity"
   }, {
     "%ID" : 11,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 381,
-    "end" : 387,
-    "label" : "patientennachname"
+    "begin" : 338,
+    "end" : 340,
+    "label" : "patientHonorific"
   }, {
     "%ID" : 12,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 1017,
-    "end" : 1023,
-    "label" : "patientennachname"
+    "begin" : 148,
+    "end" : 160,
+    "label" : "patientName"
   }, {
     "%ID" : 13,
     "%TYPE" : "custom.Span",
     "@sofa" : 2,
-    "begin" : 1325,
-    "end" : 1331,
-    "label" : "patientennachname"
+    "begin" : 1199,
+    "end" : 1201,
+    "label" : "patientHonorific"
   }, {
     "%ID" : 14,
-    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
-    "@layer" : 15,
-    "name" : "label",
-    "uiName" : "Label"
-  }, {
-    "%ID" : 16,
-    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
-    "@layer" : 17,
-    "name" : "label",
-    "uiName" : "Label"
+    "%TYPE" : "custom.Span",
+    "@sofa" : 2,
+    "begin" : 1460,
+    "end" : 1462,
+    "label" : "patientHonorific"
   }, {
     "%ID" : 15,
+    "%TYPE" : "custom.Span",
+    "@sofa" : 2,
+    "begin" : 342,
+    "end" : 348,
+    "label" : "patientLastName"
+  }, {
+    "%ID" : 16,
+    "%TYPE" : "custom.Span",
+    "@sofa" : 2,
+    "begin" : 1203,
+    "end" : 1209,
+    "label" : "patientLastName"
+  }, {
+    "%ID" : 17,
+    "%TYPE" : "custom.Span",
+    "@sofa" : 2,
+    "begin" : 1464,
+    "end" : 1470,
+    "label" : "patientLastName"
+  }, {
+    "%ID" : 18,
+    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
+    "@layer" : 19,
+    "name" : "Dependent",
+    "uiName" : "Target"
+  }, {
+    "%ID" : 20,
+    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
+    "@layer" : 19,
+    "name" : "Governor",
+    "uiName" : "Source"
+  }, {
+    "%ID" : 21,
+    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
+    "@layer" : 19,
+    "name" : "label",
+    "uiName" : "Label"
+  }, {
+    "%ID" : 22,
+    "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.FeatureDefinition",
+    "@layer" : 23,
+    "name" : "label",
+    "uiName" : "Label"
+  }, {
+    "%ID" : 19,
     "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.LayerDefinition",
     "name" : "custom.Relation",
     "uiName" : "Relation"
   }, {
-    "%ID" : 17,
+    "%ID" : 23,
     "%TYPE" : "de.tudarmstadt.ukp.clarin.webanno.api.type.LayerDefinition",
     "name" : "custom.Span",
     "uiName" : "Span"
   }, {
-    "%ID" : 18,
+    "%ID" : 24,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData",
     "@sofa" : 2,
     "begin" : 0,
-    "end" : 1631,
+    "end" : 1730,
     "language" : "x-unspecified",
-    "documentTitle" : "Report_SophieBerger.pdf",
-    "documentId" : "Report_SophieBerger.pdf",
-    "documentUri" : "file:/C:/Users/lessmanma/.inception/repository/project/2/document/518/source/Report_SophieBerger.pdf",
-    "collectionId" : "file:/C:/Users/lessmanma/.inception/repository/project/2/document/518/source/",
-    "documentBaseUri" : "file:/C:/Users/lessmanma/.inception/repository/project/2/document/518/source/",
+    "documentTitle" : "Report_PeterPaulus.pdf",
+    "documentId" : "Report_PeterPaulus.pdf",
+    "documentUri" : "admin-1/Report_PeterPaulus.pdf",
+    "collectionId" : "admin-1/Report_PeterPaulus.pdf",
+    "documentBaseUri" : "admin-1",
     "isLastSegment" : false
   }, {
-    "%ID" : 19,
+    "%ID" : 25,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.metadata.type.TagsetDescription",
     "@sofa" : 2,
     "begin" : 0,
@@ -456,7 +496,7 @@
     "name" : "Relation labels",
     "input" : false
   }, {
-    "%ID" : 20,
+    "%ID" : 26,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.metadata.type.TagsetDescription",
     "@sofa" : 2,
     "begin" : 0,
@@ -465,1123 +505,1080 @@
     "name" : "Span labels",
     "input" : false
   }, {
-    "%ID" : 21,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 4,
-    "end" : 19
-  }, {
-    "%ID" : 22,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 20,
-    "end" : 159
-  }, {
-    "%ID" : 23,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 160,
-    "end" : 359
-  }, {
-    "%ID" : 24,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 364,
-    "end" : 380
-  }, {
-    "%ID" : 25,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 381,
-    "end" : 483
-  }, {
-    "%ID" : 26,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
-    "@sofa" : 2,
-    "begin" : 484,
-    "end" : 560
-  }, {
     "%ID" : 27,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 565,
-    "end" : 667
+    "begin" : 2,
+    "end" : 17
   }, {
     "%ID" : 28,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 668,
-    "end" : 736
+    "begin" : 18,
+    "end" : 147
   }, {
     "%ID" : 29,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 737,
-    "end" : 852
+    "begin" : 148,
+    "end" : 324
   }, {
     "%ID" : 30,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 857,
-    "end" : 921
+    "begin" : 327,
+    "end" : 341
   }, {
     "%ID" : 31,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 926,
-    "end" : 1011
+    "begin" : 342,
+    "end" : 470
   }, {
     "%ID" : 32,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1012,
-    "end" : 1016
+    "begin" : 471,
+    "end" : 526
   }, {
     "%ID" : 33,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1017,
-    "end" : 1085
+    "begin" : 529,
+    "end" : 605
   }, {
     "%ID" : 34,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1086,
-    "end" : 1139
+    "begin" : 606,
+    "end" : 741
   }, {
     "%ID" : 35,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1144,
-    "end" : 1295
+    "begin" : 742,
+    "end" : 775
   }, {
     "%ID" : 36,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1300,
-    "end" : 1324
+    "begin" : 778,
+    "end" : 857
   }, {
     "%ID" : 37,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1325,
-    "end" : 1425
+    "begin" : 860,
+    "end" : 948
   }, {
     "%ID" : 38,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1426,
-    "end" : 1553
+    "begin" : 949,
+    "end" : 1072
   }, {
     "%ID" : 39,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1558,
-    "end" : 1579
+    "begin" : 1073,
+    "end" : 1183
   }, {
     "%ID" : 40,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1580,
-    "end" : 1612
+    "begin" : 1186,
+    "end" : 1202
   }, {
     "%ID" : 41,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 1613,
-    "end" : 1619
+    "begin" : 1203,
+    "end" : 1323
   }, {
     "%ID" : 42,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 4,
-    "end" : 5,
-    "order" : 0
+    "begin" : 1324,
+    "end" : 1438
   }, {
     "%ID" : 43,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 5,
-    "end" : 15,
-    "order" : 0
+    "begin" : 1441,
+    "end" : 1463
   }, {
     "%ID" : 44,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 16,
-    "end" : 18,
-    "order" : 0
+    "begin" : 1464,
+    "end" : 1571
   }, {
     "%ID" : 45,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 18,
-    "end" : 19,
-    "order" : 0
+    "begin" : 1572,
+    "end" : 1659
   }, {
     "%ID" : 46,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 20,
-    "end" : 26,
-    "order" : 0
+    "begin" : 1662,
+    "end" : 1681
   }, {
     "%ID" : 47,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 26,
-    "end" : 27,
-    "order" : 0
+    "begin" : 1682,
+    "end" : 1716
   }, {
     "%ID" : 48,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
     "@sofa" : 2,
-    "begin" : 31,
-    "end" : 32,
-    "order" : 0
+    "begin" : 1717,
+    "end" : 1723
   }, {
     "%ID" : 49,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 32,
-    "end" : 41,
+    "begin" : 2,
+    "end" : 3,
     "order" : 0
   }, {
     "%ID" : 50,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 42,
-    "end" : 45,
+    "begin" : 3,
+    "end" : 13,
     "order" : 0
   }, {
     "%ID" : 51,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 45,
-    "end" : 46,
+    "begin" : 14,
+    "end" : 16,
     "order" : 0
   }, {
     "%ID" : 52,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 47,
-    "end" : 49,
+    "begin" : 16,
+    "end" : 17,
     "order" : 0
   }, {
     "%ID" : 53,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 49,
-    "end" : 50,
+    "begin" : 18,
+    "end" : 24,
     "order" : 0
   }, {
     "%ID" : 54,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 54,
-    "end" : 55,
+    "begin" : 24,
+    "end" : 25,
     "order" : 0
   }, {
     "%ID" : 55,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 55,
-    "end" : 60,
+    "begin" : 28,
+    "end" : 29,
     "order" : 0
   }, {
     "%ID" : 56,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 61,
-    "end" : 67,
+    "begin" : 29,
+    "end" : 38,
     "order" : 0
   }, {
     "%ID" : 57,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 39,
+    "end" : 42,
+    "order" : 0
+  }, {
+    "%ID" : 58,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 42,
+    "end" : 43,
+    "order" : 0
+  }, {
+    "%ID" : 59,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 44,
+    "end" : 46,
+    "order" : 0
+  }, {
+    "%ID" : 60,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 46,
+    "end" : 47,
+    "order" : 0
+  }, {
+    "%ID" : 61,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 50,
+    "end" : 51,
+    "order" : 0
+  }, {
+    "%ID" : 62,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 51,
+    "end" : 56,
+    "order" : 0
+  }, {
+    "%ID" : 63,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 57,
+    "end" : 63,
+    "order" : 0
+  }, {
+    "%ID" : 64,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 63,
+    "end" : 64,
+    "order" : 0
+  }, {
+    "%ID" : 65,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 67,
     "end" : 68,
     "order" : 0
   }, {
-    "%ID" : 58,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 72,
-    "end" : 73,
-    "order" : 0
-  }, {
-    "%ID" : 59,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 73,
-    "end" : 76,
-    "order" : 0
-  }, {
-    "%ID" : 60,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 76,
-    "end" : 77,
-    "order" : 0
-  }, {
-    "%ID" : 61,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 78,
-    "end" : 83,
-    "order" : 0
-  }, {
-    "%ID" : 62,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 83,
-    "end" : 84,
-    "order" : 0
-  }, {
-    "%ID" : 63,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 84,
-    "end" : 89,
-    "order" : 0
-  }, {
-    "%ID" : 64,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 89,
-    "end" : 90,
-    "order" : 0
-  }, {
-    "%ID" : 65,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 94,
-    "end" : 95,
-    "order" : 0
-  }, {
     "%ID" : 66,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 95,
-    "end" : 101,
+    "begin" : 68,
+    "end" : 71,
     "order" : 0
   }, {
     "%ID" : 67,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 71,
+    "end" : 72,
+    "order" : 0
+  }, {
+    "%ID" : 68,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 73,
+    "end" : 78,
+    "order" : 0
+  }, {
+    "%ID" : 69,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 78,
+    "end" : 79,
+    "order" : 0
+  }, {
+    "%ID" : 70,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 79,
+    "end" : 84,
+    "order" : 0
+  }, {
+    "%ID" : 71,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 84,
+    "end" : 85,
+    "order" : 0
+  }, {
+    "%ID" : 72,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 88,
+    "end" : 89,
+    "order" : 0
+  }, {
+    "%ID" : 73,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 89,
+    "end" : 95,
+    "order" : 0
+  }, {
+    "%ID" : 74,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 95,
+    "end" : 96,
+    "order" : 0
+  }, {
+    "%ID" : 75,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 97,
+    "end" : 101,
+    "order" : 0
+  }, {
+    "%ID" : 76,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 101,
     "end" : 102,
     "order" : 0
   }, {
-    "%ID" : 68,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 103,
-    "end" : 107,
-    "order" : 0
-  }, {
-    "%ID" : 69,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 107,
-    "end" : 108,
-    "order" : 0
-  }, {
-    "%ID" : 70,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 108,
-    "end" : 120,
-    "order" : 0
-  }, {
-    "%ID" : 71,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 120,
-    "end" : 121,
-    "order" : 0
-  }, {
-    "%ID" : 72,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 126,
-    "end" : 133,
-    "order" : 0
-  }, {
-    "%ID" : 73,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 134,
-    "end" : 140,
-    "order" : 0
-  }, {
-    "%ID" : 74,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 146,
-    "end" : 153,
-    "order" : 0
-  }, {
-    "%ID" : 75,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 153,
-    "end" : 154,
-    "order" : 0
-  }, {
-    "%ID" : 76,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 155,
-    "end" : 158,
-    "order" : 0
-  }, {
     "%ID" : 77,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 158,
-    "end" : 159,
+    "begin" : 102,
+    "end" : 114,
     "order" : 0
   }, {
     "%ID" : 78,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 160,
-    "end" : 166,
+    "begin" : 114,
+    "end" : 115,
     "order" : 0
   }, {
     "%ID" : 79,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 167,
-    "end" : 173,
+    "begin" : 118,
+    "end" : 125,
     "order" : 0
   }, {
     "%ID" : 80,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 173,
-    "end" : 174,
+    "begin" : 126,
+    "end" : 132,
     "order" : 0
   }, {
     "%ID" : 81,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 175,
-    "end" : 179,
+    "begin" : 135,
+    "end" : 142,
     "order" : 0
   }, {
     "%ID" : 82,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 180,
-    "end" : 182,
+    "begin" : 142,
+    "end" : 143,
     "order" : 0
   }, {
     "%ID" : 83,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 183,
-    "end" : 188,
+    "begin" : 144,
+    "end" : 146,
     "order" : 0
   }, {
     "%ID" : 84,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 189,
-    "end" : 191,
+    "begin" : 146,
+    "end" : 147,
     "order" : 0
   }, {
     "%ID" : 85,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 191,
-    "end" : 192,
+    "begin" : 148,
+    "end" : 153,
     "order" : 0
   }, {
     "%ID" : 86,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 193,
-    "end" : 197,
+    "begin" : 154,
+    "end" : 160,
     "order" : 0
   }, {
     "%ID" : 87,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 197,
-    "end" : 198,
+    "begin" : 160,
+    "end" : 161,
     "order" : 0
   }, {
     "%ID" : 88,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 199,
-    "end" : 207,
+    "begin" : 162,
+    "end" : 166,
     "order" : 0
   }, {
     "%ID" : 89,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 208,
-    "end" : 210,
+    "begin" : 167,
+    "end" : 169,
     "order" : 0
   }, {
     "%ID" : 90,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 211,
-    "end" : 219,
+    "begin" : 170,
+    "end" : 179,
     "order" : 0
   }, {
     "%ID" : 91,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 220,
-    "end" : 221,
+    "begin" : 180,
+    "end" : 181,
     "order" : 0
   }, {
     "%ID" : 92,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 221,
-    "end" : 222,
+    "begin" : 181,
+    "end" : 182,
     "order" : 0
   }, {
     "%ID" : 93,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 223,
-    "end" : 228,
+    "begin" : 183,
+    "end" : 187,
     "order" : 0
   }, {
     "%ID" : 94,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 231,
-    "end" : 239,
+    "begin" : 187,
+    "end" : 188,
     "order" : 0
   }, {
     "%ID" : 95,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 239,
-    "end" : 240,
+    "begin" : 189,
+    "end" : 197,
     "order" : 0
   }, {
     "%ID" : 96,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 241,
-    "end" : 248,
+    "begin" : 198,
+    "end" : 200,
     "order" : 0
   }, {
     "%ID" : 97,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 201,
+    "end" : 215,
+    "order" : 0
+  }, {
+    "%ID" : 98,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 216,
+    "end" : 217,
+    "order" : 0
+  }, {
+    "%ID" : 99,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 217,
+    "end" : 218,
+    "order" : 0
+  }, {
+    "%ID" : 100,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 219,
+    "end" : 224,
+    "order" : 0
+  }, {
+    "%ID" : 101,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 226,
+    "end" : 232,
+    "order" : 0
+  }, {
+    "%ID" : 102,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 232,
+    "end" : 233,
+    "order" : 0
+  }, {
+    "%ID" : 103,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 234,
+    "end" : 241,
+    "order" : 0
+  }, {
+    "%ID" : 104,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 242,
+    "end" : 248,
+    "order" : 0
+  }, {
+    "%ID" : 105,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 249,
     "end" : 255,
     "order" : 0
   }, {
-    "%ID" : 98,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 256,
-    "end" : 262,
-    "order" : 0
-  }, {
-    "%ID" : 99,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 262,
-    "end" : 263,
-    "order" : 0
-  }, {
-    "%ID" : 100,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 264,
-    "end" : 273,
-    "order" : 0
-  }, {
-    "%ID" : 101,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 274,
-    "end" : 279,
-    "order" : 0
-  }, {
-    "%ID" : 102,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 280,
-    "end" : 284,
-    "order" : 0
-  }, {
-    "%ID" : 103,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 285,
-    "end" : 293,
-    "order" : 0
-  }, {
-    "%ID" : 104,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 294,
-    "end" : 298,
-    "order" : 0
-  }, {
-    "%ID" : 105,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 299,
-    "end" : 301,
-    "order" : 0
-  }, {
     "%ID" : 106,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 302,
-    "end" : 312,
+    "begin" : 255,
+    "end" : 256,
     "order" : 0
   }, {
     "%ID" : 107,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 315,
-    "end" : 322,
+    "begin" : 257,
+    "end" : 260,
     "order" : 0
   }, {
     "%ID" : 108,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 322,
-    "end" : 323,
+    "begin" : 261,
+    "end" : 269,
     "order" : 0
   }, {
     "%ID" : 109,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 324,
-    "end" : 333,
+    "begin" : 270,
+    "end" : 273,
     "order" : 0
   }, {
     "%ID" : 110,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 333,
-    "end" : 334,
+    "begin" : 274,
+    "end" : 281,
     "order" : 0
   }, {
     "%ID" : 111,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 335,
-    "end" : 343,
+    "begin" : 282,
+    "end" : 284,
     "order" : 0
   }, {
     "%ID" : 112,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 343,
-    "end" : 344,
+    "begin" : 285,
+    "end" : 288,
     "order" : 0
   }, {
     "%ID" : 113,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 345,
-    "end" : 348,
+    "begin" : 289,
+    "end" : 296,
     "order" : 0
   }, {
     "%ID" : 114,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 349,
-    "end" : 353,
+    "begin" : 297,
+    "end" : 306,
     "order" : 0
   }, {
     "%ID" : 115,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 354,
-    "end" : 358,
+    "begin" : 307,
+    "end" : 309,
     "order" : 0
   }, {
     "%ID" : 116,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 358,
-    "end" : 359,
+    "begin" : 310,
+    "end" : 315,
     "order" : 0
   }, {
     "%ID" : 117,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 364,
-    "end" : 371,
+    "begin" : 317,
+    "end" : 323,
     "order" : 0
   }, {
     "%ID" : 118,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 371,
-    "end" : 372,
+    "begin" : 323,
+    "end" : 324,
     "order" : 0
   }, {
     "%ID" : 119,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 376,
-    "end" : 379,
+    "begin" : 327,
+    "end" : 334,
     "order" : 0
   }, {
     "%ID" : 120,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 379,
-    "end" : 380,
+    "begin" : 334,
+    "end" : 335,
     "order" : 0
   }, {
     "%ID" : 121,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 381,
-    "end" : 387,
+    "begin" : 338,
+    "end" : 340,
     "order" : 0
   }, {
     "%ID" : 122,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 388,
-    "end" : 397,
+    "begin" : 340,
+    "end" : 341,
     "order" : 0
   }, {
     "%ID" : 123,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 398,
-    "end" : 403,
+    "begin" : 342,
+    "end" : 348,
     "order" : 0
   }, {
     "%ID" : 124,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 404,
-    "end" : 408,
+    "begin" : 349,
+    "end" : 357,
     "order" : 0
   }, {
     "%ID" : 125,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 409,
-    "end" : 417,
+    "begin" : 358,
+    "end" : 368,
     "order" : 0
   }, {
     "%ID" : 126,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 418,
-    "end" : 422,
+    "begin" : 369,
+    "end" : 376,
     "order" : 0
   }, {
     "%ID" : 127,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 423,
-    "end" : 425,
+    "begin" : 377,
+    "end" : 379,
     "order" : 0
   }, {
     "%ID" : 128,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 426,
-    "end" : 436,
+    "begin" : 380,
+    "end" : 385,
     "order" : 0
   }, {
     "%ID" : 129,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 437,
-    "end" : 444,
+    "begin" : 386,
+    "end" : 392,
     "order" : 0
   }, {
     "%ID" : 130,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 444,
-    "end" : 445,
+    "begin" : 392,
+    "end" : 393,
     "order" : 0
   }, {
     "%ID" : 131,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 446,
-    "end" : 455,
+    "begin" : 394,
+    "end" : 404,
     "order" : 0
   }, {
     "%ID" : 132,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 455,
-    "end" : 456,
+    "begin" : 405,
+    "end" : 410,
     "order" : 0
   }, {
     "%ID" : 133,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 457,
-    "end" : 465,
+    "begin" : 411,
+    "end" : 413,
     "order" : 0
   }, {
     "%ID" : 134,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 465,
-    "end" : 466,
+    "begin" : 414,
+    "end" : 417,
     "order" : 0
   }, {
     "%ID" : 135,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 469,
-    "end" : 472,
+    "begin" : 418,
+    "end" : 423,
     "order" : 0
   }, {
     "%ID" : 136,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 473,
-    "end" : 477,
+    "begin" : 423,
+    "end" : 424,
     "order" : 0
   }, {
     "%ID" : 137,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 478,
-    "end" : 482,
+    "begin" : 425,
+    "end" : 428,
     "order" : 0
   }, {
     "%ID" : 138,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 482,
-    "end" : 483,
+    "begin" : 430,
+    "end" : 440,
     "order" : 0
   }, {
     "%ID" : 139,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 484,
-    "end" : 487,
+    "begin" : 441,
+    "end" : 447,
     "order" : 0
   }, {
     "%ID" : 140,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 488,
-    "end" : 496,
+    "begin" : 448,
+    "end" : 452,
     "order" : 0
   }, {
     "%ID" : 141,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 497,
-    "end" : 498,
+    "begin" : 453,
+    "end" : 455,
     "order" : 0
   }, {
     "%ID" : 142,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 499,
-    "end" : 506,
+    "begin" : 456,
+    "end" : 462,
     "order" : 0
   }, {
     "%ID" : 143,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 507,
-    "end" : 520,
+    "begin" : 463,
+    "end" : 469,
     "order" : 0
   }, {
     "%ID" : 144,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 521,
-    "end" : 523,
+    "begin" : 469,
+    "end" : 470,
     "order" : 0
   }, {
     "%ID" : 145,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 524,
-    "end" : 527,
+    "begin" : 471,
+    "end" : 476,
     "order" : 0
   }, {
     "%ID" : 146,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 528,
-    "end" : 534,
+    "begin" : 477,
+    "end" : 485,
     "order" : 0
   }, {
     "%ID" : 147,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 535,
-    "end" : 539,
+    "begin" : 486,
+    "end" : 494,
     "order" : 0
   }, {
     "%ID" : 148,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 540,
-    "end" : 543,
+    "begin" : 495,
+    "end" : 502,
     "order" : 0
   }, {
     "%ID" : 149,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 544,
-    "end" : 548,
+    "begin" : 503,
+    "end" : 513,
     "order" : 0
   }, {
     "%ID" : 150,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 549,
-    "end" : 552,
+    "begin" : 515,
+    "end" : 525,
     "order" : 0
   }, {
     "%ID" : 151,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 553,
-    "end" : 559,
+    "begin" : 525,
+    "end" : 526,
     "order" : 0
   }, {
     "%ID" : 152,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 559,
-    "end" : 560,
+    "begin" : 529,
+    "end" : 537,
     "order" : 0
   }, {
     "%ID" : 153,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 565,
-    "end" : 573,
+    "begin" : 537,
+    "end" : 538,
     "order" : 0
   }, {
     "%ID" : 154,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 573,
-    "end" : 574,
+    "begin" : 541,
+    "end" : 542,
     "order" : 0
   }, {
     "%ID" : 155,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 578,
-    "end" : 586,
+    "begin" : 543,
+    "end" : 554,
     "order" : 0
   }, {
     "%ID" : 156,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 587,
-    "end" : 599,
+    "begin" : 555,
+    "end" : 563,
     "order" : 0
   }, {
     "%ID" : 157,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 600,
-    "end" : 603,
+    "begin" : 564,
+    "end" : 565,
     "order" : 0
   }, {
     "%ID" : 158,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 604,
-    "end" : 614,
+    "begin" : 566,
+    "end" : 575,
     "order" : 0
   }, {
     "%ID" : 159,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 615,
-    "end" : 622,
+    "begin" : 576,
+    "end" : 581,
     "order" : 0
   }, {
     "%ID" : 160,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 623,
-    "end" : 631,
+    "begin" : 582,
+    "end" : 584,
     "order" : 0
   }, {
     "%ID" : 161,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 632,
-    "end" : 633,
+    "begin" : 585,
+    "end" : 588,
     "order" : 0
   }, {
     "%ID" : 162,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 634,
-    "end" : 640,
+    "begin" : 589,
+    "end" : 598,
     "order" : 0
   }, {
     "%ID" : 163,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 641,
-    "end" : 651,
+    "begin" : 599,
+    "end" : 604,
     "order" : 0
   }, {
     "%ID" : 164,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 652,
-    "end" : 654,
+    "begin" : 604,
+    "end" : 605,
     "order" : 0
   }, {
     "%ID" : 165,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 655,
-    "end" : 662,
+    "begin" : 606,
+    "end" : 614,
     "order" : 0
   }, {
     "%ID" : 166,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 663,
-    "end" : 666,
+    "begin" : 615,
+    "end" : 625,
     "order" : 0
   }, {
     "%ID" : 167,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 666,
-    "end" : 667,
+    "begin" : 626,
+    "end" : 628,
     "order" : 0
   }, {
     "%ID" : 168,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 668,
-    "end" : 671,
+    "begin" : 630,
+    "end" : 633,
     "order" : 0
   }, {
     "%ID" : 169,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 674,
-    "end" : 679,
+    "begin" : 634,
+    "end" : 641,
     "order" : 0
   }, {
     "%ID" : 170,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 680,
-    "end" : 683,
+    "begin" : 642,
+    "end" : 645,
     "order" : 0
   }, {
     "%ID" : 171,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 684,
-    "end" : 689,
+    "begin" : 646,
+    "end" : 652,
     "order" : 0
   }, {
     "%ID" : 172,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 690,
-    "end" : 692,
+    "begin" : 653,
+    "end" : 656,
     "order" : 0
   }, {
     "%ID" : 173,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 693,
-    "end" : 696,
+    "begin" : 657,
+    "end" : 666,
     "order" : 0
   }, {
     "%ID" : 174,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 697,
-    "end" : 699,
+    "begin" : 667,
+    "end" : 669,
     "order" : 0
   }, {
     "%ID" : 175,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 699,
-    "end" : 700,
+    "begin" : 670,
+    "end" : 677,
     "order" : 0
   }, {
     "%ID" : 176,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 700,
-    "end" : 702,
+    "begin" : 678,
+    "end" : 686,
     "order" : 0
   }, {
     "%ID" : 177,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 703,
-    "end" : 704,
+    "begin" : 687,
+    "end" : 697,
     "order" : 0
   }, {
     "%ID" : 178,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 704,
-    "end" : 713,
+    "begin" : 698,
+    "end" : 701,
     "order" : 0
   }, {
     "%ID" : 179,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 714,
-    "end" : 719,
+    "begin" : 702,
+    "end" : 704,
     "order" : 0
   }, {
     "%ID" : 180,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 719,
-    "end" : 720,
+    "begin" : 705,
+    "end" : 714,
     "order" : 0
   }, {
     "%ID" : 181,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 721,
-    "end" : 724,
+    "begin" : 716,
+    "end" : 719,
     "order" : 0
   }, {
     "%ID" : 182,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 724,
+    "begin" : 720,
     "end" : 725,
     "order" : 0
   }, {
     "%ID" : 183,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 725,
+    "begin" : 726,
     "end" : 728,
     "order" : 0
   }, {
@@ -1589,440 +1586,440 @@
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 729,
-    "end" : 731,
+    "end" : 732,
     "order" : 0
   }, {
     "%ID" : 185,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 731,
-    "end" : 732,
+    "begin" : 733,
+    "end" : 740,
     "order" : 0
   }, {
     "%ID" : 186,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 732,
-    "end" : 734,
+    "begin" : 740,
+    "end" : 741,
     "order" : 0
   }, {
     "%ID" : 187,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 734,
-    "end" : 735,
+    "begin" : 742,
+    "end" : 744,
     "order" : 0
   }, {
     "%ID" : 188,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 735,
-    "end" : 736,
+    "begin" : 745,
+    "end" : 752,
     "order" : 0
   }, {
     "%ID" : 189,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 737,
-    "end" : 745,
+    "begin" : 753,
+    "end" : 763,
     "order" : 0
   }, {
     "%ID" : 190,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 746,
-    "end" : 752,
+    "begin" : 764,
+    "end" : 768,
     "order" : 0
   }, {
     "%ID" : 191,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 753,
-    "end" : 755,
+    "begin" : 769,
+    "end" : 774,
     "order" : 0
   }, {
     "%ID" : 192,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 758,
-    "end" : 771,
+    "begin" : 774,
+    "end" : 775,
     "order" : 0
   }, {
     "%ID" : 193,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 772,
-    "end" : 776,
+    "begin" : 778,
+    "end" : 787,
     "order" : 0
   }, {
     "%ID" : 194,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 777,
-    "end" : 780,
+    "begin" : 787,
+    "end" : 788,
     "order" : 0
   }, {
     "%ID" : 195,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 781,
-    "end" : 793,
+    "begin" : 791,
+    "end" : 796,
     "order" : 0
   }, {
     "%ID" : 196,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 794,
-    "end" : 801,
+    "begin" : 797,
+    "end" : 803,
     "order" : 0
   }, {
     "%ID" : 197,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 802,
-    "end" : 810,
+    "begin" : 803,
+    "end" : 804,
     "order" : 0
   }, {
     "%ID" : 198,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 811,
-    "end" : 812,
+    "begin" : 805,
+    "end" : 814,
     "order" : 0
   }, {
     "%ID" : 199,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 813,
-    "end" : 818,
+    "begin" : 815,
+    "end" : 817,
     "order" : 0
   }, {
     "%ID" : 200,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 819,
-    "end" : 823,
+    "begin" : 818,
+    "end" : 821,
     "order" : 0
   }, {
     "%ID" : 201,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 824,
-    "end" : 826,
+    "begin" : 822,
+    "end" : 831,
     "order" : 0
   }, {
     "%ID" : 202,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 827,
-    "end" : 834,
+    "begin" : 832,
+    "end" : 837,
     "order" : 0
   }, {
     "%ID" : 203,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 835,
+    "begin" : 837,
     "end" : 838,
     "order" : 0
   }, {
     "%ID" : 204,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 841,
-    "end" : 851,
+    "begin" : 839,
+    "end" : 847,
     "order" : 0
   }, {
     "%ID" : 205,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 851,
-    "end" : 852,
+    "begin" : 848,
+    "end" : 853,
     "order" : 0
   }, {
     "%ID" : 206,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 857,
-    "end" : 866,
+    "begin" : 854,
+    "end" : 856,
     "order" : 0
   }, {
     "%ID" : 207,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 866,
-    "end" : 867,
+    "begin" : 856,
+    "end" : 857,
     "order" : 0
   }, {
     "%ID" : 208,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 871,
-    "end" : 877,
+    "begin" : 860,
+    "end" : 869,
     "order" : 0
   }, {
     "%ID" : 209,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 878,
-    "end" : 885,
+    "begin" : 869,
+    "end" : 870,
     "order" : 0
   }, {
     "%ID" : 210,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 873,
+    "end" : 876,
+    "order" : 0
+  }, {
+    "%ID" : 211,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 877,
+    "end" : 885,
+    "order" : 0
+  }, {
+    "%ID" : 212,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 886,
     "end" : 889,
     "order" : 0
   }, {
-    "%ID" : 211,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 890,
-    "end" : 900,
-    "order" : 0
-  }, {
-    "%ID" : 212,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 901,
-    "end" : 905,
-    "order" : 0
-  }, {
     "%ID" : 213,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 906,
-    "end" : 908,
+    "begin" : 890,
+    "end" : 894,
     "order" : 0
   }, {
     "%ID" : 214,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 909,
-    "end" : 914,
+    "begin" : 895,
+    "end" : 898,
     "order" : 0
   }, {
     "%ID" : 215,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 915,
-    "end" : 920,
+    "begin" : 899,
+    "end" : 907,
     "order" : 0
   }, {
     "%ID" : 216,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 920,
-    "end" : 921,
+    "begin" : 908,
+    "end" : 917,
     "order" : 0
   }, {
     "%ID" : 217,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 926,
-    "end" : 935,
+    "begin" : 918,
+    "end" : 920,
     "order" : 0
   }, {
     "%ID" : 218,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 935,
-    "end" : 936,
+    "begin" : 921,
+    "end" : 924,
     "order" : 0
   }, {
     "%ID" : 219,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 940,
-    "end" : 949,
+    "begin" : 925,
+    "end" : 933,
     "order" : 0
   }, {
     "%ID" : 220,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 950,
-    "end" : 954,
+    "begin" : 934,
+    "end" : 939,
     "order" : 0
   }, {
     "%ID" : 221,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 955,
-    "end" : 968,
+    "begin" : 940,
+    "end" : 947,
     "order" : 0
   }, {
     "%ID" : 222,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 969,
-    "end" : 976,
+    "begin" : 947,
+    "end" : 948,
     "order" : 0
   }, {
     "%ID" : 223,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 977,
-    "end" : 980,
+    "begin" : 949,
+    "end" : 952,
     "order" : 0
   }, {
     "%ID" : 224,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 981,
-    "end" : 991,
+    "begin" : 953,
+    "end" : 960,
     "order" : 0
   }, {
     "%ID" : 225,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 992,
-    "end" : 995,
+    "begin" : 961,
+    "end" : 963,
     "order" : 0
   }, {
     "%ID" : 226,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 996,
-    "end" : 1000,
+    "begin" : 965,
+    "end" : 972,
     "order" : 0
   }, {
     "%ID" : 227,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1001,
-    "end" : 1010,
+    "begin" : 973,
+    "end" : 975,
     "order" : 0
   }, {
     "%ID" : 228,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1010,
-    "end" : 1011,
+    "begin" : 976,
+    "end" : 986,
     "order" : 0
   }, {
     "%ID" : 229,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1012,
-    "end" : 1015,
+    "begin" : 987,
+    "end" : 993,
     "order" : 0
   }, {
     "%ID" : 230,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1015,
-    "end" : 1016,
+    "begin" : 994,
+    "end" : 997,
     "order" : 0
   }, {
     "%ID" : 231,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1017,
-    "end" : 1023,
+    "begin" : 998,
+    "end" : 1003,
     "order" : 0
   }, {
     "%ID" : 232,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1024,
-    "end" : 1027,
+    "begin" : 1004,
+    "end" : 1007,
     "order" : 0
   }, {
     "%ID" : 233,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1030,
-    "end" : 1034,
+    "begin" : 1008,
+    "end" : 1012,
     "order" : 0
   }, {
     "%ID" : 234,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1035,
-    "end" : 1042,
+    "begin" : 1013,
+    "end" : 1016,
     "order" : 0
   }, {
     "%ID" : 235,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1043,
-    "end" : 1045,
+    "begin" : 1017,
+    "end" : 1028,
     "order" : 0
   }, {
     "%ID" : 236,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1046,
-    "end" : 1055,
+    "begin" : 1029,
+    "end" : 1034,
     "order" : 0
   }, {
     "%ID" : 237,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1056,
-    "end" : 1060,
+    "begin" : 1035,
+    "end" : 1041,
     "order" : 0
   }, {
     "%ID" : 238,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1061,
-    "end" : 1068,
+    "begin" : 1042,
+    "end" : 1045,
     "order" : 0
   }, {
     "%ID" : 239,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1069,
-    "end" : 1072,
+    "begin" : 1047,
+    "end" : 1059,
     "order" : 0
   }, {
     "%ID" : 240,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1073,
-    "end" : 1084,
+    "begin" : 1060,
+    "end" : 1071,
     "order" : 0
   }, {
     "%ID" : 241,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1084,
-    "end" : 1085,
+    "begin" : 1071,
+    "end" : 1072,
     "order" : 0
   }, {
     "%ID" : 242,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1086,
-    "end" : 1089,
+    "begin" : 1073,
+    "end" : 1086,
     "order" : 0
   }, {
     "%ID" : 243,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1090,
-    "end" : 1099,
+    "begin" : 1087,
+    "end" : 1095,
     "order" : 0
   }, {
     "%ID" : 244,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1100,
-    "end" : 1102,
+    "begin" : 1096,
+    "end" : 1108,
     "order" : 0
   }, {
     "%ID" : 245,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1103,
-    "end" : 1115,
+    "begin" : 1109,
+    "end" : 1111,
     "order" : 0
   }, {
     "%ID" : 246,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1118,
+    "begin" : 1112,
     "end" : 1122,
     "order" : 0
   }, {
@@ -2030,265 +2027,265 @@
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 1123,
-    "end" : 1124,
+    "end" : 1132,
     "order" : 0
   }, {
     "%ID" : 248,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1125,
-    "end" : 1133,
+    "begin" : 1133,
+    "end" : 1135,
     "order" : 0
   }, {
     "%ID" : 249,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1134,
-    "end" : 1138,
+    "begin" : 1137,
+    "end" : 1140,
     "order" : 0
   }, {
     "%ID" : 250,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1138,
-    "end" : 1139,
+    "begin" : 1141,
+    "end" : 1148,
     "order" : 0
   }, {
     "%ID" : 251,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1144,
-    "end" : 1153,
+    "begin" : 1149,
+    "end" : 1151,
     "order" : 0
   }, {
     "%ID" : 252,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1153,
-    "end" : 1154,
+    "begin" : 1152,
+    "end" : 1155,
     "order" : 0
   }, {
     "%ID" : 253,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1160,
-    "end" : 1167,
+    "begin" : 1156,
+    "end" : 1173,
     "order" : 0
   }, {
     "%ID" : 254,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1168,
-    "end" : 1178,
+    "begin" : 1174,
+    "end" : 1182,
     "order" : 0
   }, {
     "%ID" : 255,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1179,
-    "end" : 1182,
+    "begin" : 1182,
+    "end" : 1183,
     "order" : 0
   }, {
     "%ID" : 256,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1183,
-    "end" : 1193,
+    "begin" : 1186,
+    "end" : 1195,
     "order" : 0
   }, {
     "%ID" : 257,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1194,
-    "end" : 1199,
+    "begin" : 1195,
+    "end" : 1196,
     "order" : 0
   }, {
     "%ID" : 258,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1200,
-    "end" : 1203,
+    "begin" : 1199,
+    "end" : 1201,
     "order" : 0
   }, {
     "%ID" : 259,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1204,
-    "end" : 1212,
+    "begin" : 1201,
+    "end" : 1202,
     "order" : 0
   }, {
     "%ID" : 260,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1213,
-    "end" : 1215,
+    "begin" : 1203,
+    "end" : 1209,
     "order" : 0
   }, {
     "%ID" : 261,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1216,
-    "end" : 1223,
+    "begin" : 1210,
+    "end" : 1214,
     "order" : 0
   }, {
     "%ID" : 262,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1224,
-    "end" : 1227,
+    "begin" : 1215,
+    "end" : 1217,
     "order" : 0
   }, {
     "%ID" : 263,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1228,
-    "end" : 1241,
+    "begin" : 1218,
+    "end" : 1225,
     "order" : 0
   }, {
     "%ID" : 264,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1242,
-    "end" : 1244,
+    "begin" : 1226,
+    "end" : 1235,
     "order" : 0
   }, {
     "%ID" : 265,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1245,
-    "end" : 1248,
+    "begin" : 1236,
+    "end" : 1241,
     "order" : 0
   }, {
     "%ID" : 266,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1251,
-    "end" : 1258,
+    "begin" : 1242,
+    "end" : 1245,
     "order" : 0
   }, {
     "%ID" : 267,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1259,
-    "end" : 1262,
+    "begin" : 1246,
+    "end" : 1253,
     "order" : 0
   }, {
     "%ID" : 268,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1263,
-    "end" : 1272,
+    "begin" : 1254,
+    "end" : 1256,
     "order" : 0
   }, {
     "%ID" : 269,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1257,
+    "end" : 1263,
+    "order" : 0
+  }, {
+    "%ID" : 270,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1264,
+    "end" : 1272,
+    "order" : 0
+  }, {
+    "%ID" : 271,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 1273,
     "end" : 1276,
     "order" : 0
   }, {
-    "%ID" : 270,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 1277,
-    "end" : 1284,
-    "order" : 0
-  }, {
-    "%ID" : 271,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 1285,
-    "end" : 1288,
-    "order" : 0
-  }, {
     "%ID" : 272,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1289,
-    "end" : 1294,
+    "begin" : 1277,
+    "end" : 1283,
     "order" : 0
   }, {
     "%ID" : 273,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1294,
-    "end" : 1295,
+    "begin" : 1284,
+    "end" : 1289,
     "order" : 0
   }, {
     "%ID" : 274,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1300,
-    "end" : 1315,
+    "begin" : 1291,
+    "end" : 1296,
     "order" : 0
   }, {
     "%ID" : 275,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1315,
-    "end" : 1316,
+    "begin" : 1297,
+    "end" : 1299,
     "order" : 0
   }, {
     "%ID" : 276,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1320,
-    "end" : 1323,
+    "begin" : 1300,
+    "end" : 1308,
     "order" : 0
   }, {
     "%ID" : 277,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1323,
-    "end" : 1324,
+    "begin" : 1309,
+    "end" : 1322,
     "order" : 0
   }, {
     "%ID" : 278,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1325,
-    "end" : 1331,
+    "begin" : 1322,
+    "end" : 1323,
     "order" : 0
   }, {
     "%ID" : 279,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1332,
-    "end" : 1334,
+    "begin" : 1324,
+    "end" : 1331,
     "order" : 0
   }, {
     "%ID" : 280,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1335,
-    "end" : 1343,
+    "begin" : 1332,
+    "end" : 1341,
     "order" : 0
   }, {
     "%ID" : 281,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1344,
-    "end" : 1351,
+    "begin" : 1342,
+    "end" : 1354,
     "order" : 0
   }, {
     "%ID" : 282,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1352,
-    "end" : 1354,
+    "begin" : 1355,
+    "end" : 1358,
     "order" : 0
   }, {
     "%ID" : 283,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1355,
-    "end" : 1363,
+    "begin" : 1359,
+    "end" : 1362,
     "order" : 0
   }, {
     "%ID" : 284,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1364,
+    "begin" : 1363,
     "end" : 1365,
     "order" : 0
   }, {
@@ -2296,223 +2293,223 @@
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 1366,
-    "end" : 1374,
+    "end" : 1372,
     "order" : 0
   }, {
     "%ID" : 286,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1375,
-    "end" : 1379,
+    "begin" : 1373,
+    "end" : 1376,
     "order" : 0
   }, {
     "%ID" : 287,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1380,
-    "end" : 1383,
+    "begin" : 1378,
+    "end" : 1386,
     "order" : 0
   }, {
     "%ID" : 288,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1384,
-    "end" : 1390,
+    "begin" : 1387,
+    "end" : 1389,
     "order" : 0
   }, {
     "%ID" : 289,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1391,
-    "end" : 1399,
+    "begin" : 1390,
+    "end" : 1393,
     "order" : 0
   }, {
     "%ID" : 290,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1400,
-    "end" : 1407,
+    "begin" : 1394,
+    "end" : 1401,
     "order" : 0
   }, {
     "%ID" : 291,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1408,
-    "end" : 1410,
+    "begin" : 1402,
+    "end" : 1405,
     "order" : 0
   }, {
     "%ID" : 292,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1413,
-    "end" : 1420,
+    "begin" : 1406,
+    "end" : 1414,
     "order" : 0
   }, {
     "%ID" : 293,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1421,
-    "end" : 1424,
+    "begin" : 1415,
+    "end" : 1418,
     "order" : 0
   }, {
     "%ID" : 294,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1424,
-    "end" : 1425,
+    "begin" : 1419,
+    "end" : 1423,
     "order" : 0
   }, {
     "%ID" : 295,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1426,
-    "end" : 1437,
+    "begin" : 1424,
+    "end" : 1426,
     "order" : 0
   }, {
     "%ID" : 296,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1427,
+    "end" : 1437,
+    "order" : 0
+  }, {
+    "%ID" : 297,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
     "begin" : 1437,
     "end" : 1438,
     "order" : 0
   }, {
-    "%ID" : 297,
-    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
-    "@sofa" : 2,
-    "begin" : 1439,
-    "end" : 1446,
-    "order" : 0
-  }, {
     "%ID" : 298,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1447,
-    "end" : 1454,
+    "begin" : 1441,
+    "end" : 1456,
     "order" : 0
   }, {
     "%ID" : 299,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1455,
-    "end" : 1464,
+    "begin" : 1456,
+    "end" : 1457,
     "order" : 0
   }, {
     "%ID" : 300,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1465,
-    "end" : 1468,
+    "begin" : 1460,
+    "end" : 1462,
     "order" : 0
   }, {
     "%ID" : 301,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1469,
-    "end" : 1480,
+    "begin" : 1462,
+    "end" : 1463,
     "order" : 0
   }, {
     "%ID" : 302,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1481,
-    "end" : 1483,
+    "begin" : 1464,
+    "end" : 1470,
     "order" : 0
   }, {
     "%ID" : 303,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1484,
-    "end" : 1491,
+    "begin" : 1471,
+    "end" : 1473,
     "order" : 0
   }, {
     "%ID" : 304,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1492,
-    "end" : 1495,
+    "begin" : 1474,
+    "end" : 1485,
     "order" : 0
   }, {
     "%ID" : 305,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1498,
-    "end" : 1505,
+    "begin" : 1486,
+    "end" : 1488,
     "order" : 0
   }, {
     "%ID" : 306,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1506,
-    "end" : 1509,
+    "begin" : 1489,
+    "end" : 1493,
     "order" : 0
   }, {
     "%ID" : 307,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1510,
-    "end" : 1516,
+    "begin" : 1494,
+    "end" : 1504,
     "order" : 0
   }, {
     "%ID" : 308,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1517,
-    "end" : 1520,
+    "begin" : 1505,
+    "end" : 1511,
     "order" : 0
   }, {
     "%ID" : 309,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1521,
-    "end" : 1527,
+    "begin" : 1512,
+    "end" : 1528,
     "order" : 0
   }, {
     "%ID" : 310,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1528,
-    "end" : 1531,
+    "begin" : 1529,
+    "end" : 1532,
     "order" : 0
   }, {
     "%ID" : 311,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1532,
-    "end" : 1539,
+    "begin" : 1533,
+    "end" : 1541,
     "order" : 0
   }, {
     "%ID" : 312,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1540,
-    "end" : 1542,
+    "begin" : 1542,
+    "end" : 1543,
     "order" : 0
   }, {
     "%ID" : 313,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1543,
-    "end" : 1552,
+    "begin" : 1545,
+    "end" : 1553,
     "order" : 0
   }, {
     "%ID" : 314,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1552,
-    "end" : 1553,
+    "begin" : 1553,
+    "end" : 1554,
     "order" : 0
   }, {
     "%ID" : 315,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1558,
-    "end" : 1562,
+    "begin" : 1555,
+    "end" : 1565,
     "order" : 0
   }, {
     "%ID" : 316,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1563,
+    "begin" : 1566,
     "end" : 1570,
     "order" : 0
   }, {
@@ -2526,765 +2523,947 @@
     "%ID" : 318,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1576,
-    "end" : 1578,
+    "begin" : 1572,
+    "end" : 1579,
     "order" : 0
   }, {
     "%ID" : 319,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1578,
-    "end" : 1579,
+    "begin" : 1579,
+    "end" : 1580,
     "order" : 0
   }, {
     "%ID" : 320,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1580,
-    "end" : 1584,
+    "begin" : 1581,
+    "end" : 1583,
     "order" : 0
   }, {
     "%ID" : 321,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1585,
-    "end" : 1591,
+    "begin" : 1584,
+    "end" : 1590,
     "order" : 0
   }, {
     "%ID" : 322,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1592,
-    "end" : 1599,
+    "begin" : 1591,
+    "end" : 1600,
     "order" : 0
   }, {
     "%ID" : 323,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1600,
-    "end" : 1608,
+    "begin" : 1601,
+    "end" : 1607,
     "order" : 0
   }, {
     "%ID" : 324,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1609,
-    "end" : 1611,
+    "begin" : 1608,
+    "end" : 1617,
     "order" : 0
   }, {
     "%ID" : 325,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1611,
-    "end" : 1612,
+    "begin" : 1618,
+    "end" : 1630,
     "order" : 0
   }, {
     "%ID" : 326,
     "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
     "@sofa" : 2,
-    "begin" : 1613,
-    "end" : 1619,
+    "begin" : 1631,
+    "end" : 1634,
     "order" : 0
   }, {
     "%ID" : 327,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1636,
+    "end" : 1641,
+    "order" : 0
+  }, {
+    "%ID" : 328,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1642,
+    "end" : 1645,
+    "order" : 0
+  }, {
+    "%ID" : 329,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1646,
+    "end" : 1649,
+    "order" : 0
+  }, {
+    "%ID" : 330,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1650,
+    "end" : 1658,
+    "order" : 0
+  }, {
+    "%ID" : 331,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1658,
+    "end" : 1659,
+    "order" : 0
+  }, {
+    "%ID" : 332,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1662,
+    "end" : 1666,
+    "order" : 0
+  }, {
+    "%ID" : 333,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1667,
+    "end" : 1674,
+    "order" : 0
+  }, {
+    "%ID" : 334,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1674,
+    "end" : 1675,
+    "order" : 0
+  }, {
+    "%ID" : 335,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1678,
+    "end" : 1680,
+    "order" : 0
+  }, {
+    "%ID" : 336,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1680,
+    "end" : 1681,
+    "order" : 0
+  }, {
+    "%ID" : 337,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1682,
+    "end" : 1686,
+    "order" : 0
+  }, {
+    "%ID" : 338,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1687,
+    "end" : 1693,
+    "order" : 0
+  }, {
+    "%ID" : 339,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1696,
+    "end" : 1703,
+    "order" : 0
+  }, {
+    "%ID" : 340,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1704,
+    "end" : 1712,
+    "order" : 0
+  }, {
+    "%ID" : 341,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1713,
+    "end" : 1715,
+    "order" : 0
+  }, {
+    "%ID" : 342,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1715,
+    "end" : 1716,
+    "order" : 0
+  }, {
+    "%ID" : 343,
+    "%TYPE" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "@sofa" : 2,
+    "begin" : 1717,
+    "end" : 1723,
+    "order" : 0
+  }, {
+    "%ID" : 344,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 4,
-    "end" : 29,
+    "begin" : 2,
+    "end" : 27,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 88.70001220703125,
     "w" : 113.87801361083984,
     "h" : 12.0,
-    "@c" : 328,
-    "@g" : 329
+    "@c" : 345,
+    "@g" : 346
   }, {
-    "%ID" : 330,
+    "%ID" : 347,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 31,
-    "end" : 52,
+    "begin" : 28,
+    "end" : 49,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 103.3399658203125,
     "w" : 98.03800201416016,
     "h" : 12.0,
-    "@c" : 331,
-    "@g" : 332
+    "@c" : 348,
+    "@g" : 349
   }, {
-    "%ID" : 333,
+    "%ID" : 350,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 54,
-    "end" : 70,
+    "begin" : 50,
+    "end" : 66,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 117.97998046875,
     "w" : 74.49800872802734,
     "h" : 12.0,
-    "@c" : 334,
-    "@g" : 335
+    "@c" : 351,
+    "@g" : 352
   }, {
-    "%ID" : 336,
+    "%ID" : 353,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 72,
-    "end" : 92,
+    "begin" : 67,
+    "end" : 87,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 132.64996337890625,
     "w" : 97.79801177978516,
     "h" : 12.0,
-    "@c" : 337,
-    "@g" : 338
+    "@c" : 354,
+    "@g" : 355
   }, {
-    "%ID" : 339,
+    "%ID" : 356,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 94,
-    "end" : 122,
+    "begin" : 88,
+    "end" : 116,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 147.28997802734375,
     "w" : 140.27801513671875,
     "h" : 12.0,
-    "@c" : 340,
-    "@g" : 341
+    "@c" : 357,
+    "@g" : 358
   }, {
-    "%ID" : 342,
+    "%ID" : 359,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 126,
-    "end" : 142,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 176.80999755859375,
-    "w" : 82.1780014038086,
-    "h" : 12.0,
-    "@c" : 343,
-    "@g" : 344
-  }, {
-    "%ID" : 345,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 146,
-    "end" : 229,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 206.57000732421875,
-    "w" : 414.4340515136719,
-    "h" : 12.0,
-    "@c" : 346,
-    "@g" : 347
-  }, {
-    "%ID" : 348,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 231,
-    "end" : 313,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 221.22998046875,
-    "w" : 430.5599365234375,
-    "h" : 12.0,
-    "@c" : 349,
-    "@g" : 350
-  }, {
-    "%ID" : 351,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 315,
-    "end" : 360,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 235.8699951171875,
-    "w" : 211.10800170898438,
-    "h" : 12.0,
-    "@c" : 352,
-    "@g" : 353
-  }, {
-    "%ID" : 354,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 364,
-    "end" : 374,
+    "begin" : 118,
+    "end" : 133,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 265.8699951171875,
+    "y" : 177.04998779296875,
+    "w" : 79.53800201416016,
+    "h" : 12.0,
+    "@c" : 360,
+    "@g" : 361
+  }, {
+    "%ID" : 362,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 135,
+    "end" : 225,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 207.04998779296875,
+    "w" : 439.1762390136719,
+    "h" : 12.0,
+    "@c" : 363,
+    "@g" : 364
+  }, {
+    "%ID" : 365,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 226,
+    "end" : 316,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 221.7099609375,
+    "w" : 430.0440368652344,
+    "h" : 12.0,
+    "@c" : 366,
+    "@g" : 367
+  }, {
+    "%ID" : 368,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 317,
+    "end" : 325,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 236.3499755859375,
+    "w" : 38.01799774169922,
+    "h" : 12.0,
+    "@c" : 369,
+    "@g" : 370
+  }, {
+    "%ID" : 371,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 327,
+    "end" : 337,
+    "d" : 0.0,
+    "x" : 71.06400299072266,
+    "y" : 266.3499755859375,
     "w" : 44.977996826171875,
     "h" : 12.0,
-    "@c" : 355,
-    "@g" : 356
+    "@c" : 372,
+    "@g" : 373
   }, {
-    "%ID" : 357,
+    "%ID" : 374,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 376,
-    "end" : 467,
+    "begin" : 338,
+    "end" : 429,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 280.75,
-    "w" : 451.8359680175781,
+    "y" : 281.22998046875,
+    "w" : 440.1480407714844,
     "h" : 12.0,
-    "@c" : 358,
-    "@g" : 359
+    "@c" : 375,
+    "@g" : 376
   }, {
-    "%ID" : 360,
+    "%ID" : 377,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 469,
-    "end" : 561,
+    "begin" : 430,
+    "end" : 514,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 295.38995361328125,
-    "w" : 448.3179626464844,
+    "y" : 295.8699951171875,
+    "w" : 431.2799072265625,
     "h" : 12.0,
-    "@c" : 361,
-    "@g" : 362
+    "@c" : 378,
+    "@g" : 379
   }, {
-    "%ID" : 363,
+    "%ID" : 380,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 565,
-    "end" : 576,
+    "begin" : 515,
+    "end" : 527,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 310.53997802734375,
+    "w" : 57.21800994873047,
+    "h" : 12.0,
+    "@c" : 381,
+    "@g" : 382
+  }, {
+    "%ID" : 383,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 529,
+    "end" : 540,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 325.17999267578125,
+    "y" : 340.29998779296875,
     "w" : 50.25799560546875,
     "h" : 12.0,
-    "@c" : 364,
-    "@g" : 365
+    "@c" : 384,
+    "@g" : 385
   }, {
-    "%ID" : 366,
+    "%ID" : 386,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 578,
-    "end" : 672,
+    "begin" : 541,
+    "end" : 629,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 340.05999755859375,
-    "w" : 450.4679870605469,
+    "y" : 355.17999267578125,
+    "w" : 455.3598327636719,
     "h" : 12.0,
-    "@c" : 367,
-    "@g" : 368
+    "@c" : 387,
+    "@g" : 388
   }, {
-    "%ID" : 369,
+    "%ID" : 389,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 674,
-    "end" : 756,
+    "begin" : 630,
+    "end" : 715,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 354.6999816894531,
-    "w" : 399.3139953613281,
+    "y" : 370.05999755859375,
+    "w" : 441.9000549316406,
     "h" : 12.0,
-    "@c" : 370,
-    "@g" : 371
+    "@c" : 390,
+    "@g" : 391
   }, {
-    "%ID" : 372,
+    "%ID" : 392,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 758,
-    "end" : 839,
+    "begin" : 716,
+    "end" : 776,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 369.3399963378906,
-    "w" : 402.7920227050781,
+    "y" : 384.6999816894531,
+    "w" : 294.9079895019531,
     "h" : 12.0,
-    "@c" : 373,
-    "@g" : 374
+    "@c" : 393,
+    "@g" : 394
   }, {
-    "%ID" : 375,
+    "%ID" : 395,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 841,
-    "end" : 853,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 383.97998046875,
-    "w" : 55.05799865722656,
-    "h" : 12.0,
-    "@c" : 376,
-    "@g" : 377
-  }, {
-    "%ID" : 378,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 857,
-    "end" : 869,
+    "begin" : 778,
+    "end" : 790,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 413.9999694824219,
+    "y" : 414.47998046875,
     "w" : 56.49799346923828,
     "h" : 12.0,
-    "@c" : 379,
-    "@g" : 380
+    "@c" : 396,
+    "@g" : 397
   }, {
-    "%ID" : 381,
+    "%ID" : 398,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 871,
-    "end" : 922,
+    "begin" : 791,
+    "end" : 858,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 428.8799743652344,
-    "w" : 249.76800537109375,
+    "y" : 429.3599853515625,
+    "w" : 305.2279968261719,
     "h" : 12.0,
-    "@c" : 382,
-    "@g" : 383
+    "@c" : 399,
+    "@g" : 400
   }, {
-    "%ID" : 384,
+    "%ID" : 401,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 926,
-    "end" : 938,
+    "begin" : 860,
+    "end" : 872,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 458.8799743652344,
+    "y" : 459.3599853515625,
     "w" : 61.77800750732422,
     "h" : 12.0,
-    "@c" : 385,
-    "@g" : 386
+    "@c" : 402,
+    "@g" : 403
   }, {
-    "%ID" : 387,
+    "%ID" : 404,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 940,
-    "end" : 1028,
+    "begin" : 873,
+    "end" : 964,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 473.7599792480469,
-    "w" : 433.66595458984375,
+    "y" : 474.239990234375,
+    "w" : 435.3600769042969,
     "h" : 12.0,
-    "@c" : 388,
-    "@g" : 389
+    "@c" : 405,
+    "@g" : 406
   }, {
-    "%ID" : 390,
+    "%ID" : 407,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1030,
-    "end" : 1116,
+    "begin" : 965,
+    "end" : 1046,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 488.41998291015625,
-    "w" : 436.8121032714844,
+    "y" : 488.8999938964844,
+    "w" : 411.3840026855469,
     "h" : 12.0,
-    "@c" : 391,
-    "@g" : 392
+    "@c" : 408,
+    "@g" : 409
   }, {
-    "%ID" : 393,
+    "%ID" : 410,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1118,
-    "end" : 1140,
+    "begin" : 1047,
+    "end" : 1136,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 503.05999755859375,
-    "w" : 104.51801300048828,
+    "y" : 503.53997802734375,
+    "w" : 450.9339904785156,
     "h" : 12.0,
-    "@c" : 394,
-    "@g" : 395
+    "@c" : 411,
+    "@g" : 412
   }, {
-    "%ID" : 396,
+    "%ID" : 413,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1144,
-    "end" : 1156,
+    "begin" : 1137,
+    "end" : 1184,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 518.1799926757812,
+    "w" : 216.64801025390625,
+    "h" : 12.0,
+    "@c" : 414,
+    "@g" : 415
+  }, {
+    "%ID" : 416,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 1186,
+    "end" : 1198,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 532.8199462890625,
+    "y" : 548.1799926757812,
     "w" : 58.89800262451172,
     "h" : 12.0,
-    "@c" : 397,
-    "@g" : 398
+    "@c" : 417,
+    "@g" : 418
   }, {
-    "%ID" : 399,
+    "%ID" : 419,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1160,
-    "end" : 1249,
+    "begin" : 1199,
+    "end" : 1290,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 547.93994140625,
-    "w" : 432.78204345703125,
+    "y" : 563.0599975585938,
+    "w" : 438.69598388671875,
     "h" : 12.0,
-    "@c" : 400,
-    "@g" : 401
+    "@c" : 420,
+    "@g" : 421
   }, {
-    "%ID" : 402,
+    "%ID" : 422,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1251,
-    "end" : 1296,
+    "begin" : 1291,
+    "end" : 1377,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 562.5799560546875,
-    "w" : 222.64801025390625,
+    "y" : 577.72998046875,
+    "w" : 417.119873046875,
     "h" : 12.0,
-    "@c" : 403,
-    "@g" : 404
+    "@c" : 423,
+    "@g" : 424
   }, {
-    "%ID" : 405,
+    "%ID" : 425,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1300,
-    "end" : 1318,
+    "begin" : 1378,
+    "end" : 1439,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 592.3699951171875,
+    "w" : 298.74798583984375,
+    "h" : 12.0,
+    "@c" : 426,
+    "@g" : 427
+  }, {
+    "%ID" : 428,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 1441,
+    "end" : 1459,
     "d" : 0.0,
     "x" : 71.06400299072266,
-    "y" : 592.3699951171875,
+    "y" : 622.1300048828125,
     "w" : 102.3580093383789,
     "h" : 12.0,
-    "@c" : 406,
-    "@g" : 407
+    "@c" : 429,
+    "@g" : 430
   }, {
-    "%ID" : 408,
+    "%ID" : 431,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1320,
-    "end" : 1411,
+    "begin" : 1460,
+    "end" : 1544,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 607.25,
-    "w" : 446.8797912597656,
+    "y" : 637.0099487304688,
+    "w" : 420.09197998046875,
     "h" : 12.0,
-    "@c" : 409,
-    "@g" : 410
+    "@c" : 432,
+    "@g" : 433
   }, {
-    "%ID" : 411,
+    "%ID" : 434,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1413,
-    "end" : 1496,
+    "begin" : 1545,
+    "end" : 1635,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 621.8899536132812,
-    "w" : 430.36798095703125,
+    "y" : 651.6499633789062,
+    "w" : 436.68798828125,
     "h" : 12.0,
-    "@c" : 412,
-    "@g" : 413
+    "@c" : 435,
+    "@g" : 436
   }, {
-    "%ID" : 414,
+    "%ID" : 437,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1498,
-    "end" : 1554,
-    "d" : 0.0,
-    "x" : 70.8239974975586,
-    "y" : 636.5299682617188,
-    "w" : 274.7279968261719,
-    "h" : 12.0,
-    "@c" : 415,
-    "@g" : 416
-  }, {
-    "%ID" : 417,
-    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
-    "@sofa" : 2,
-    "begin" : 1558,
-    "end" : 1572,
+    "begin" : 1636,
+    "end" : 1660,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 666.3099975585938,
-    "w" : 66.81800079345703,
+    "w" : 129.23800659179688,
     "h" : 12.0,
-    "@c" : 418,
-    "@g" : 419
+    "@c" : 438,
+    "@g" : 439
   }, {
-    "%ID" : 420,
+    "%ID" : 440,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1576,
-    "end" : 1620,
+    "begin" : 1662,
+    "end" : 1676,
     "d" : 0.0,
     "x" : 70.8239974975586,
-    "y" : 695.8299560546875,
-    "w" : 215.92800903320312,
+    "y" : 696.0699462890625,
+    "w" : 66.81800079345703,
     "h" : 12.0,
-    "@c" : 421,
-    "@g" : 422
+    "@c" : 441,
+    "@g" : 442
   }, {
-    "%ID" : 423,
+    "%ID" : 443,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
     "@sofa" : 2,
-    "begin" : 1624,
-    "end" : 1625,
+    "begin" : 1678,
+    "end" : 1695,
     "d" : 0.0,
     "x" : 70.8239974975586,
     "y" : 725.5899658203125,
-    "w" : 2.4950408935546875,
-    "h" : 11.03997802734375,
-    "@c" : 424,
-    "@g" : 425
+    "w" : 82.89800262451172,
+    "h" : 12.0,
+    "@c" : 444,
+    "@g" : 445
   }, {
-    "%ID" : 426,
+    "%ID" : 446,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 1696,
+    "end" : 1724,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 740.4719848632812,
+    "w" : 135.47799682617188,
+    "h" : 12.0,
+    "@c" : 447,
+    "@g" : 448
+  }, {
+    "%ID" : 449,
+    "%TYPE" : "org.dkpro.core.api.pdf.type.PdfChunk",
+    "@sofa" : 2,
+    "begin" : 1726,
+    "end" : 1727,
+    "d" : 0.0,
+    "x" : 70.8239974975586,
+    "y" : 770.0159912109375,
+    "w" : 2.7119979858398438,
+    "h" : 12.0,
+    "@c" : 450,
+    "@g" : 451
+  }, {
+    "%ID" : 452,
     "%TYPE" : "org.dkpro.core.api.pdf.type.PdfPage",
     "@sofa" : 2,
     "begin" : 0,
-    "end" : 1631,
+    "end" : 1730,
     "width" : 595.2000122070312,
     "height" : 841.9199829101562,
     "pageNumber" : 0
   }, {
-    "%ID" : 329,
+    "%ID" : 346,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 81.37199401855469, 85.46399688720703, 90.25199127197266, 94.31998443603516, 100.55998992919922, 104.6399917602539, 110.38799285888672, 115.6679916381836, 118.30799102783203, 123.09599304199219, 125.73599243164062, 133.16400146484375, 137.24400329589844, 140.3520050048828, 142.99200439453125, 153.3000030517578, 159.54000854492188, 162.4080047607422, 165.04800415039062, 171.0240020751953, 175.1280059814453, 178.9560089111328, 181.99000549316406 ]
   }, {
-    "%ID" : 332,
+    "%ID" : 349,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 81.85198974609375, 85.93199157714844, 91.90798950195312, 96.7199935913086, 102.95999908447266, 108.93599700927734, 115.19999694824219, 121.17599487304688, 125.27999877929688, 127.91999816894531, 133.42799377441406, 137.50799560546875, 141.58799743652344, 144.6959991455078, 147.33599853515625, 153.56399536132812, 159.56399536132812, 163.16400146484375, 166.14999389648438 ]
   }, {
-    "%ID" : 335,
+    "%ID" : 352,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 80.42399597167969, 86.42399597167969, 92.65199279785156, 98.65199279785156, 104.65199279785156, 107.51998901367188, 113.99999237060547, 119.97599029541016, 124.07999420166016, 126.947998046875, 129.58799743652344, 135.8280029296875, 139.656005859375, 142.61000061035156 ]
   }, {
-    "%ID" : 338,
+    "%ID" : 355,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 80.18399810791016, 86.15999603271484, 88.8239974975586, 92.17200469970703, 94.81200408935547, 100.81200408935547, 107.04000091552734, 113.04000091552734, 119.04000091552734, 125.33000183105469, 128.92999267578125, 134.92999267578125, 141.15798950195312, 147.15798950195312, 153.15798950195312, 159.385986328125, 162.98599243164062, 165.91000366210938 ]
   }, {
-    "%ID" : 341,
+    "%ID" : 358,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 80.18399810791016, 83.78399658203125, 94.09199523925781, 99.83999633789062, 102.72000122070312, 105.36000061035156, 108.4800033569336, 111.3479995727539, 113.98799896240234, 120.2280044555664, 124.0560073852539, 130.29600524902344, 141.08399963378906, 147.32400512695312, 151.4040069580078, 160.99200439453125, 167.24400329589844, 173.4720001220703, 176.11199951171875, 178.7519989013672, 184.72799682617188, 188.83200073242188, 191.94000244140625, 198.1800079345703, 204.4080047607422, 208.38999938964844 ]
+    "%ELEMENTS" : [ 70.8239974975586, 74.42399597167969, 80.18399810791016, 83.78399658203125, 94.09199523925781, 99.83999633789062, 102.72000122070312, 105.36000061035156, 108.4800033569336, 111.3479995727539, 113.98799896240234, 120.2280044555664, 124.0560073852539, 130.29600524902344, 141.08399963378906, 147.32400512695312, 151.4040069580078, 160.99200439453125, 167.24400329589844, 173.4720001220703, 176.22999572753906, 178.8699951171875, 184.8459930419922, 188.9499969482422, 192.05799865722656, 198.29800415039062, 204.5260009765625, 208.38999938964844 ]
   }, {
-    "%ID" : 344,
+    "%ID" : 361,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 81.37199401855469, 87.37199401855469, 93.83999633789062, 96.72000122070312, 101.73600006103516, 107.74800109863281, 110.62800598144531, 113.26800537109375, 119.98799896240234, 125.98799896240234, 132.4560089111328, 138.91200256347656, 143.24400329589844, 147.32400512695312, 150.2899932861328 ]
+    "%ELEMENTS" : [ 71.06400299072266, 81.61199951171875, 87.61199951171875, 94.08000183105469, 96.96000671386719, 101.97600555419922, 107.98800659179688, 110.93000030517578, 113.56999969482422, 120.29000091552734, 126.29000091552734, 132.7580108642578, 139.21400451660156, 143.54600524902344, 147.88999938964844 ]
   }, {
-    "%ID" : 347,
+    "%ID" : 364,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.02799987792969, 82.81200408935547, 86.87999725341797, 89.5199966430664, 95.4959945678711, 101.75999450683594, 105.82798767089844, 108.94799041748047, 111.5879898071289, 121.89598846435547, 125.97599029541016, 130.76397705078125, 133.87197875976562, 136.51197814941406, 142.0199737548828, 148.27197265625, 154.51197814941406, 160.97998046875, 163.61997985839844, 169.59597778320312, 172.25997924804688, 178.73997497558594, 184.71597290039062, 188.81997680664062, 194.56796264648438, 200.54396057128906, 204.87596130371094, 207.75596618652344, 210.39596557617188, 216.63597106933594, 223.10397338867188, 227.18397521972656, 233.42398071289062, 236.2919921875, 242.53199768066406, 248.77200317382812, 251.41200256347656, 261.7200012207031, 267.4679870605469, 271.7879638671875, 276.82794189453125, 283.06793212890625, 285.9359436035156, 291.9359436035156, 297.9359436035156, 301.0439453125, 303.6839599609375, 309.6839599609375, 315.9119873046875, 321.9119873046875, 327.9119873046875, 330.7919921875, 333.6600036621094, 337.739990234375, 343.71600341796875, 348.5279846191406, 351.1679992675781, 357.635986328125, 360.2760009765625, 366.5159912109375, 372.2640075683594, 374.9040222167969, 380.6520080566406, 384.73199462890625, 387.37200927734375, 393.88800048828125, 400.0920104980469, 404.8800048828125, 410.85601806640625, 417.1199951171875, 425.74798583984375, 431.7239990234375, 437.92999267578125, 440.57000732421875, 446.57000732421875, 449.45001220703125, 452.3180236816406, 458.3180236816406, 464.3180236816406, 470.5460510253906, 476.5460510253906, 482.5460510253906 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.02799987792969, 82.81200408935547, 86.87999725341797, 89.5199966430664, 95.4959945678711, 101.75999450683594, 105.82798767089844, 108.94799041748047, 111.5879898071289, 121.89598846435547, 125.97599029541016, 129.083984375, 131.72398376464844, 137.927978515625, 143.9519805908203, 148.01998901367188, 153.99598693847656, 158.09999084472656, 160.739990234375, 166.94398498535156, 172.7279815673828, 178.96798706054688, 181.6079864501953, 187.84799194335938, 192.87599182128906, 195.75599670410156, 198.39599609375, 204.63600158691406, 211.10400390625, 215.1840057373047, 221.42401123046875, 224.29202270507812, 230.5320281982422, 236.77203369140625, 239.4120330810547, 244.92002868652344, 250.92002868652344, 257.1600341796875, 261.22802734375, 267.20404052734375, 276.79205322265625, 283.092041015625, 289.2960510253906, 293.37603759765625, 296.01605224609375, 302.24407958984375, 305.12408447265625, 307.76409912109375, 313.99212646484375, 319.99212646484375, 325.99212646484375, 331.99212646484375, 335.1001281738281, 337.7401428222656, 341.82012939453125, 347.796142578125, 352.6081237792969, 355.2481384277344, 361.71612548828125, 364.35614013671875, 370.59613037109375, 376.3441467285156, 378.9841613769531, 384.7321472167969, 388.8121337890625, 391.4521484375, 397.692138671875, 403.44012451171875, 408.2401123046875, 412.30810546875, 418.05609130859375, 424.3080749511719, 426.9480895996094, 432.9241027832031, 439.1880798339844, 444.9360656738281, 447.8160705566406, 450.4560852050781, 456.4320983886719, 462.4441223144531, 465.0841369628906, 471.3121643066406, 474.1921691894531, 476.8321838378906, 483.0602111816406, 489.0602111816406, 495.0602111816406, 501.2882385253906, 507.2882385253906 ]
   }, {
-    "%ID" : 350,
+    "%ID" : 367,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 86.87999725341797, 93.13200378417969, 99.37200927734375, 105.61201477050781, 111.5880126953125, 114.25201416015625, 123.84001159667969, 126.96001434326172, 129.60000610351562, 135.8400115966797, 141.5880126953125, 145.6680145263672, 148.30801391601562, 154.2840118408203, 160.5480194091797, 164.61602783203125, 167.2560272216797, 173.72402954101562, 179.9640350341797, 189.55203247070312, 195.8040313720703, 201.780029296875, 205.884033203125, 208.75204467773438, 214.75204467773438, 220.98004150390625, 226.98004150390625, 232.98004150390625, 239.20803833007812, 245.20803833007812, 248.08804321289062, 250.9560546875, 257.196044921875, 261.2760314941406, 267.2520446777344, 272.06402587890625, 278.0400390625, 284.30401611328125, 288.37200927734375, 294.3480224609375, 300.61199951171875, 303.25201416015625, 307.32000732421875, 313.78802490234375, 320.02801513671875, 325.7760009765625, 331.2960205078125, 333.93603515625, 342.56402587890625, 345.20404052734375, 349.27203369140625, 355.51202392578125, 358.15203857421875, 362.9400329589844, 368.4480285644531, 378.0360412597656, 384.28802490234375, 388.35601806640625, 394.59600830078125, 404.18402099609375, 408.9840087890625, 411.6240234375, 416.4120178222656, 422.6520080566406, 427.6919860839844, 433.9319763183594, 436.5719909667969, 442.3199768066406, 447.1199645996094, 449.7599792480469, 455.9999694824219, 461.9759826660156, 466.0799560546875, 470.8679504394531, 473.5079650878906, 478.29595947265625, 482.36395263671875, 488.3399658203125, 494.60394287109375, 498.67193603515625 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.30400085449219, 83.27999877929688, 87.38400268554688, 90.02400207519531, 92.89200592041016, 99.13201141357422, 102.01200866699219, 104.8800048828125, 111.12001037597656, 116.86801147460938, 120.94800567626953, 123.58800506591797, 129.5640106201172, 135.82801818847656, 139.89602661132812, 142.53602600097656, 149.0040283203125, 155.24403381347656, 164.83203125, 171.0840301513672, 177.06002807617188, 181.16403198242188, 184.03204345703125, 190.03204345703125, 196.03204345703125, 202.26004028320312, 208.26004028320312, 214.26004028320312, 220.488037109375, 223.3680419921875, 226.00804138183594, 234.63604736328125, 240.38404846191406, 245.18405151367188, 247.8240509033203, 253.57205200195312, 259.82403564453125, 269.41204833984375, 272.0640563964844, 276.1320495605469, 280.2000427246094, 286.1760559082031, 292.4400329589844, 295.30804443359375, 298.9080505371094, 305.1480407714844, 309.4560241699219, 312.32403564453125, 317.1120300292969, 321.1800231933594, 326.9280090332031, 332.6880187988281, 335.3280334472656, 341.5680236816406, 347.3160400390625, 349.9560546875, 355.70404052734375, 359.7840270996094, 362.4240417480469, 366.4920349121094, 372.7320251464844, 378.7080383300781, 381.3720397949219, 384.0120544433594, 390.2520446777344, 392.8920593261719, 396.9600524902344, 399.6000671386719, 405.3480529785156, 408.2280578613281, 410.8680725097656, 417.1080627441406, 419.7480773925781, 425.4960632324219, 431.2560729980469, 437.72406005859375, 443.96405029296875, 448.7520446777344, 451.3920593261719, 456.1800537109375, 458.820068359375, 465.06005859375, 468.6600646972656, 471.3000793457031, 476.56805419921875, 482.80804443359375, 485.6760559082031, 491.9160461425781, 498.1560363769531 ]
   }, {
-    "%ID" : 353,
+    "%ID" : 370,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 74.42400360107422, 80.17200469970703, 84.25199890136719, 86.89199829101562, 92.63999938964844, 98.8800048828125, 104.85600280761719, 107.76000213623047, 110.4000015258789, 116.86800384521484, 119.50800323486328, 124.2959976196289, 129.08399963378906, 131.7239990234375, 137.96400451660156, 143.94000244140625, 148.7519989013672, 153.5399932861328, 156.4199981689453, 159.05999755859375, 167.68800354003906, 173.66400146484375, 179.43600463867188, 184.9440155029297, 191.18402099609375, 197.16001892089844, 201.97201538085938, 206.760009765625, 209.6400146484375, 212.28001403808594, 218.02801513671875, 224.28001403808594, 230.52001953125, 233.16001892089844, 239.4000244140625, 245.1480255126953, 247.80001831054688, 254.02801513671875, 256.66802978515625, 261.4560241699219, 266.9640197753906, 269.6040344238281, 275.8440246582031, 279.2200012207031 ]
+    "%ELEMENTS" : [ 70.8239974975586, 75.8639907836914, 81.61199188232422, 87.86399841308594, 92.90399932861328, 98.87999725341797, 102.98400115966797, 106.12999725341797 ]
   }, {
-    "%ID" : 356,
+    "%ID" : 373,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 71.06400299072266, 78.73200225830078, 81.61200714111328, 86.40000915527344, 90.49201202392578, 96.94801330566406, 101.28001403808594, 107.02801513671875, 110.69000244140625, 113.33000183105469 ]
   }, {
-    "%ID" : 359,
+    "%ID" : 376,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 85.21199798583984, 90.0, 93.10800170898438, 95.74800109863281, 102.2280044555664, 108.2040023803711, 112.3080062866211, 118.0560073852539, 124.0320053100586, 128.13600158691406, 130.7760009765625, 137.01600646972656, 141.09600830078125, 147.07200622558594, 151.88400268554688, 157.86000061035156, 164.12400817871094, 168.1920166015625, 174.1680145263672, 180.43202209472656, 183.072021484375, 187.14002990722656, 193.38003540039062, 199.6200408935547, 205.3680419921875, 210.88804626464844, 213.52804565429688, 222.1560516357422, 224.79605102539062, 228.8640594482422, 235.10406494140625, 237.7440643310547, 242.5320587158203, 248.04006958007812, 257.6280822753906, 263.88006591796875, 267.94805908203125, 274.18804931640625, 283.77606201171875, 288.5760498046875, 291.216064453125, 296.0040588378906, 302.2440490722656, 307.2840270996094, 313.75201416015625, 316.39202880859375, 322.1400146484375, 326.94000244140625, 329.58001708984375, 335.82000732421875, 341.7960205078125, 345.8999938964844, 350.68798828125, 353.3280029296875, 358.1159973144531, 362.1839904785156, 368.1600036621094, 374.4239807128906, 378.4919738769531, 381.1319885253906, 384.73199462890625, 390.47998046875, 394.5599670410156, 397.1999816894531, 402.947998046875, 409.18798828125, 415.16400146484375, 418.0679931640625, 420.7080078125, 427.1759948730469, 429.8160095214844, 434.60400390625, 439.3919982910156, 442.0320129394531, 448.2720031738281, 454.2480163574219, 459.05999755859375, 463.8479919433594, 466.7279968261719, 469.3680114746094, 477.9960021972656, 483.9720153808594, 489.7439880371094, 495.2519836425781, 501.4919738769531, 507.4679870605469, 512.2799682617188, 517.0679931640625, 519.947998046875 ]
+    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 85.21199798583984, 88.34400177001953, 90.98400115966797, 97.18800354003906, 102.97200775146484, 109.2120132446289, 111.85201263427734, 118.0920181274414, 122.88002014160156, 125.52001953125, 129.6000213623047, 135.57601928710938, 142.06802368164062, 148.3080291748047, 152.38803100585938, 156.45603942871094, 162.43203735351562, 168.696044921875, 171.56405639648438, 177.80406188964844, 183.78005981445312, 187.88406372070312, 192.67205810546875, 195.3120574951172, 200.1000518798828, 204.16806030273438, 210.14405822753906, 216.40806579589844, 220.47607421875, 223.11607360839844, 228.1560821533203, 234.39608764648438, 240.1440887451172, 246.39608764648438, 252.14407348632812, 258.1200866699219, 262.93206787109375, 265.57208251953125, 268.21209716796875, 274.45208740234375, 277.3200988769531, 283.5600891113281, 289.8000793457031, 298.4280700683594, 304.4040832519531, 307.0680847167969, 309.93609619140625, 316.17608642578125, 321.924072265625, 328.1760559082031, 330.8160705566406, 334.8840637207031, 339.67205810546875, 342.55206298828125, 345.19207763671875, 351.66009521484375, 356.7000732421875, 361.74005126953125, 367.488037109375, 372.28802490234375, 374.92803955078125, 381.16802978515625, 387.40802001953125, 393.39599609375, 396.0360107421875, 398.676025390625, 405.1440124511719, 407.7840270996094, 414.0240173339844, 420.4920349121094, 426.7320251464844, 429.3720397949219, 432.24005126953125, 438.48004150390625, 441.12005615234375, 445.18804931640625, 451.42803955078125, 457.404052734375, 460.06805419921875, 464.8560485839844, 468.9240417480469, 475.1640319824219, 481.6320495605469, 484.2720642089844, 487.38006591796875, 490.02008056640625, 495.76806640625, 502.0200500488281, 508.2600402832031 ]
   }, {
-    "%ID" : 362,
+    "%ID" : 379,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 76.5719985961914, 82.82400512695312, 89.06401062011719, 91.70401000976562, 97.94401550292969, 103.6920166015625, 106.3440170288086, 112.57201385498047, 115.2120132446289, 120.00001525878906, 125.50801086425781, 128.14801025390625, 134.3880157470703, 137.4960174560547, 140.13601684570312, 145.64401245117188, 151.89601135253906, 157.99000549316406, 160.6300048828125, 164.7100067138672, 170.93800354003906, 177.17800903320312, 183.4180145263672, 187.49801635742188, 191.56602478027344, 197.54202270507812, 204.03402709960938, 206.6740264892578, 212.42202758789062, 215.07403564453125, 220.822021484375, 224.9020233154297, 230.6500244140625, 236.9020233154297, 243.14202880859375, 249.13003540039062, 251.77003479003906, 254.4100341796875, 260.6500244140625, 266.62603759765625, 270.718017578125, 276.69403076171875, 281.0260314941406, 283.6660461425781, 289.9060363769531, 293.98602294921875, 299.7340087890625, 304.0539855957031, 306.6940002441406, 313.1620178222656, 319.4020080566406, 322.0420227050781, 328.2820129394531, 331.88201904296875, 334.7500305175781, 340.9900207519531, 346.9660339355469, 351.07000732421875, 353.9380187988281, 360.1780090332031, 366.1540222167969, 371.9259948730469, 374.5660095214844, 378.6340026855469, 384.8739929199219, 387.74200439453125, 393.98199462890625, 399.4900207519531, 405.4660339355469, 409.57000732421875, 412.21002197265625, 416.27801513671875, 422.51800537109375, 428.4940185546875, 431.15802001953125, 437.39801025390625, 443.14599609375, 447.94598388671875, 452.01397705078125, 454.65399169921875, 458.2539978027344, 464.2300109863281, 472.8819885253906, 475.5220031738281, 485.1100158691406, 491.59002685546875, 497.83001708984375, 501.89801025390625, 508.13800048828125, 512.926025390625, 516.4299926757812 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 83.30400848388672, 85.94400787353516, 92.18401336669922, 96.25200653076172, 102.2280044555664, 108.49200439453125, 114.73200988769531, 120.96000671386719, 127.20001220703125, 129.8400115966797, 138.468017578125, 144.4440155029297, 147.10801696777344, 152.8560028076172, 159.09600830078125, 163.1640167236328, 165.80401611328125, 168.67201232910156, 174.91201782226562, 179.70001220703125, 184.48800659179688, 187.1280059814453, 189.76800537109375, 196.0080108642578, 198.8760223388672, 202.95602416992188, 208.93202209472656, 214.00802612304688, 219.98402404785156, 226.23602294921875, 230.3040313720703, 232.94403076171875, 242.5320281982422, 248.78402709960938, 255.02403259277344, 259.092041015625, 265.33203125, 270.1200256347656, 273.22802734375, 275.8680419921875, 281.6280212402344, 287.8680114746094, 293.8440246582031, 298.656005859375, 304.63201904296875, 307.2960205078125, 312.3240051269531, 317.8320007324219, 327.4200134277344, 333.6719970703125, 337.739990234375, 343.97998046875, 353.5679931640625, 358.36798095703125, 361.00799560546875, 367.24798583984375, 371.3279724121094, 377.5679626464844, 387.1559753417969, 393.407958984375, 397.4759521484375, 403.45196533203125, 409.7159423828125, 412.35595703125, 416.1839599609375, 422.4239501953125, 426.5039367675781, 430.5719299316406, 436.8119201660156, 442.7879333496094, 447.11993408203125, 449.75994873046875, 455.99993896484375, 458.63995361328125, 464.387939453125, 470.14794921875, 476.6159362792969, 482.8559265136719, 487.6439208984375, 491.7119140625, 494.3519287109375, 499.39190673828125 ]
   }, {
-    "%ID" : 365,
+    "%ID" : 382,
+    "%TYPE" : "uima.cas.FloatArray",
+    "%ELEMENTS" : [ 70.8239974975586, 76.79999542236328, 82.33200073242188, 88.08000183105469, 90.73200225830078, 96.97200775146484, 102.72000885009766, 106.80000305175781, 109.44000244140625, 115.68000030517578, 121.92000579833984, 125.33000183105469 ]
+  }, {
+    "%ID" : 385,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 71.06400299072266, 76.57200622558594, 79.4640121459961, 85.93201446533203, 92.40001678466797, 95.28002166748047, 101.7480239868164, 107.49602508544922, 112.28402709960938, 115.97000122070312, 118.61000061035156 ]
   }, {
-    "%ID" : 368,
+    "%ID" : 388,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.29199981689453, 79.93199920654297, 82.5719985961914, 88.81200408935547, 91.4520034790039, 96.49199676513672, 102.47999572753906, 105.1199951171875, 107.75999450683594, 113.73599243164062, 119.02799224853516, 124.77599334716797, 134.36399841308594, 137.0279998779297, 143.26800537109375, 149.01600646972656, 153.3360137939453, 155.97601318359375, 162.2160186767578, 168.45602416992188, 173.2440185546875, 175.88401794433594, 181.63201904296875, 187.88401794433594, 194.35202026367188, 196.9920196533203, 199.63201904296875, 205.38002014160156, 211.86001586914062, 218.1000213623047, 222.18002319335938, 227.9280242919922, 232.00802612304688, 238.4760284423828, 242.5560302734375, 248.0640411376953, 250.70404052734375, 254.78404235839844, 260.7600402832031, 265.572021484375, 271.81201171875, 274.4520263671875, 278.52001953125, 283.3080139160156, 285.9480285644531, 288.8160400390625, 295.0560302734375, 301.2960205078125, 303.93603515625, 308.97601318359375, 314.9639892578125, 319.031982421875, 325.00799560546875, 327.6719970703125, 333.41998291015625, 336.0719909667969, 340.8599853515625, 346.83599853515625, 352.3680114746094, 358.3440246582031, 362.447998046875, 368.42401123046875, 371.0880126953125, 377.3280029296875, 383.30401611328125, 386.9640197753906, 389.5680236816406, 394.6080017089844, 397.2480163574219, 403.2240295410156, 409.4880065917969, 414.5279846191406, 420.0359802246094, 422.90399169921875, 429.14398193359375, 432.7439880371094, 435.61199951171875, 442.33197021484375, 444.97198486328125, 449.03997802734375, 454.7879638671875, 464.3759765625, 467.03997802734375, 473.5079650878906, 476.1479797363281, 482.62799072265625, 488.85601806640625, 494.85601806640625, 497.9640197753906, 500.6040344238281, 506.364013671875, 512.60400390625, 518.5800170898438 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.7719955444336, 80.42399597167969, 85.46399688720703, 91.70399475097656, 94.5719985961914, 100.81199645996094, 107.052001953125, 113.29199981689453, 118.08000183105469, 123.12000274658203, 129.58799743652344, 135.8280029296875, 141.3360137939453, 143.97601318359375, 148.05601501464844, 154.03201293945312, 159.5640106201172, 165.54000854492188, 171.31201171875, 173.95201110839844, 179.92800903320312, 186.1920166015625, 188.83201599121094, 194.58001708984375, 197.23202514648438, 206.8200225830078, 212.8200225830078, 215.46002197265625, 218.1000213623047, 223.84800720214844, 230.0880126953125, 235.8360137939453, 242.0880126953125, 246.15602111816406, 248.7960205078125, 252.86402893066406, 259.1040344238281, 268.9320373535156, 275.1720275878906, 279.25201416015625, 282.1200256347656, 284.7600402832031, 291.0000305175781, 293.6400451660156, 297.7080383300781, 303.9480285644531, 309.9240417480469, 312.8160400390625, 318.56402587890625, 323.364013671875, 328.40399169921875, 334.3800048828125, 340.64398193359375, 346.88397216796875, 349.52398681640625, 355.76397705078125, 361.5119934082031, 364.1520080566406, 369.1919860839844, 375.6600036621094, 378.3000183105469, 384.8599853515625, 391.0999755859375, 394.2079772949219, 396.8479919433594, 403.31597900390625, 409.55596923828125, 419.14398193359375, 425.62396240234375, 431.86395263671875, 435.93194580078125, 441.907958984375, 448.17193603515625, 450.81195068359375, 454.87994384765625, 461.11993408203125, 470.70794677734375, 476.9599609375, 482.7079772949219, 486.7879638671875, 492.53594970703125, 499.01593017578125, 505.25592041015625, 510.763916015625, 513.4038696289062, 519.6438598632812, 523.4718627929688 ]
   }, {
-    "%ID" : 371,
+    "%ID" : 391,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 75.61199951171875, 81.58799743652344, 85.69200134277344, 91.9320068359375, 101.52000427246094, 104.17200469970703, 110.65200805664062, 116.65200805664062, 122.8800048828125, 125.52000427246094, 128.16000366210938, 134.13600158691406, 139.66799926757812, 145.6439971923828, 148.30799865722656, 151.17601013183594, 153.81600952148438, 158.60400390625, 161.24400329589844, 167.24400329589844, 173.24400329589844, 179.4720001220703, 182.11199951171875, 188.3520050048828, 194.09999084472656, 198.6599884033203, 208.24798583984375, 211.1279754638672, 213.76797485351562, 217.4039764404297, 221.44798278808594, 227.42398071289062, 231.083984375, 237.27598571777344, 241.35598754882812, 247.3319854736328, 253.5959930419922, 258.635986328125, 264.61199951171875, 267.2760009765625, 271.3559875488281, 277.3439636230469, 283.5839538574219, 289.33197021484375, 295.3079833984375, 298.4519958496094, 301.0920104980469, 307.0920104980469, 313.3200378417969, 319.55999755859375, 323.1600036621094, 329.1600036621094, 335.3880310058594, 341.3880310058594, 344.0280456542969, 350.2680358886719, 356.01605224609375, 360.5760498046875, 370.1640625, 373.0440673828125, 376.6800537109375, 379.7520446777344, 382.3920593261719, 388.15203857421875, 390.79205322265625, 396.76806640625, 402.3000793457031, 408.0480651855469, 412.1280517578125, 418.10406494140625, 424.3680419921875, 427.008056640625, 429.6480712890625, 435.62408447265625, 441.1560974121094, 447.1321105957031, 449.92999267578125, 454.7179870605469, 457.58599853515625, 463.82598876953125, 467.4259948730469 ]
+    "%ELEMENTS" : [ 70.8239974975586, 74.8919906616211, 81.13199615478516, 87.10799407958984, 89.7719955444336, 95.5199966430664, 101.77200317382812, 108.01200866699219, 114.25200653076172, 123.84000396728516, 129.81600952148438, 136.1160125732422, 138.73202514648438, 144.72003173828125, 150.9600372314453, 157.20004272460938, 159.8400421142578, 163.90805053710938, 170.3760528564453, 176.61605834960938, 180.69606018066406, 186.44406127929688, 191.72406005859375, 194.3640594482422, 202.9920654296875, 208.7400665283203, 213.54006958007812, 216.18006896972656, 222.42007446289062, 228.3960723876953, 232.5000762939453, 236.3280792236328, 242.56808471679688, 246.64808654785156, 256.236083984375, 262.21209716796875, 268.5120849609375, 271.1280822753906, 275.4360656738281, 281.6760559082031, 284.3160705566406, 290.2920837402344, 295.5841064453125, 300.62408447265625, 303.26409912109375, 309.50408935546875, 315.9720764160156, 321.9480895996094, 324.6120910644531, 330.8520812988281, 337.0920715332031, 341.88006591796875, 346.6680603027344, 349.3080749511719, 355.5480651855469, 358.1880798339844, 364.1640930175781, 366.8280944824219, 376.4161071777344, 382.3921203613281, 386.4961242675781, 392.2441101074219, 397.0440979003906, 401.1120910644531, 406.8600769042969, 411.6600646972656, 417.6360778808594, 422.44805908203125, 425.08807373046875, 430.8360595703125, 437.0880432128906, 443.3280334472656, 445.9680480957031, 450.0360412597656, 456.2760314941406, 458.9160461425781, 465.1560363769531, 471.1320495605469, 475.2240295410156, 481.2000427246094, 485.30401611328125, 494.89202880859375, 497.5440368652344, 503.7840270996094, 510.0120544433594 ]
   }, {
-    "%ID" : 374,
+    "%ID" : 394,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 80.41199493408203, 86.38799285888672, 90.49198913574219, 96.73199462890625, 102.239990234375, 104.87998962402344, 114.46798706054688, 120.21598815917969, 122.87998962402344, 129.1199951171875, 135.36000061035156, 138.22799682617188, 143.26800537109375, 145.9080047607422, 151.656005859375, 156.7320098876953, 159.5760040283203, 165.81600952148438, 168.4560089111328, 174.20401000976562, 180.4560089111328, 186.92401123046875, 189.5640106201172, 195.80401611328125, 202.0440216064453, 211.8720245361328, 218.11203002929688, 223.15203857421875, 228.66004943847656, 233.4480438232422, 237.51605224609375, 243.49205017089844, 246.1560516357422, 252.39605712890625, 258.3720703125, 261.03607177734375, 264.6360778808594, 270.8760681152344, 274.9560546875, 279.0240478515625, 285.2640380859375, 291.4920654296875, 295.5720520019531, 298.4400634765625, 301.080078125, 307.320068359375, 313.7880554199219, 316.4280700683594, 321.4680480957031, 327.2160339355469, 331.2960205078125, 337.27203369140625, 339.93603515625, 345.68402099609375, 348.3360290527344, 353.3760070800781, 356.0160217285156, 361.9920349121094, 368.0040283203125, 372.0840148925781, 374.7240295410156, 379.7640075683594, 385.5119934082031, 390.3119812011719, 396.2879943847656, 398.9519958496094, 405.1919860839844, 409.0199890136719, 411.6600036621094, 418.3799743652344, 421.0199890136719, 425.0879821777344, 430.8359680175781, 440.6759948730469, 443.3160095214844, 449.5559997558594, 452.1960144042969, 458.9040222167969, 464.9040222167969, 470.9040222167969 ]
+    "%ELEMENTS" : [ 70.8239974975586, 74.8919906616211, 81.13199615478516, 87.10799407958984, 89.7719955444336, 94.55999755859375, 98.62799072265625, 104.37599182128906, 110.13599395751953, 116.11199188232422, 118.77599334716797, 125.0159912109375, 128.61599731445312, 131.25599670410156, 135.32400512695312, 141.5640106201172, 147.54000854492188, 150.20401000976562, 156.4440155029297, 159.08401489257812, 163.87200927734375, 169.84800720214844, 175.62001037597656, 180.4080047607422, 186.38400268554688, 189.51600646972656, 192.156005859375, 199.83599853515625, 206.0760040283203, 208.71600341796875, 214.9560089111328, 217.59600830078125, 222.38400268554688, 226.45201110839844, 232.20001220703125, 238.45201110839844, 242.52001953125, 245.16001892089844, 254.74801635742188, 260.7240295410156, 264.8280334472656, 270.5760192871094, 275.3760070800781, 279.4440002441406, 285.1919860839844, 289.9919738769531, 295.9679870605469, 300.77996826171875, 303.41998291015625, 311.8199768066406, 317.7959899902344, 321.89996337890625, 327.8759765625, 330.53997802734375, 334.1399841308594, 340.3799743652344, 346.84796142578125, 353.08795166015625, 359.32794189453125, 363.0199890136719 ]
   }, {
-    "%ID" : 377,
-    "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 83.04000091552734, 86.70000457763672, 89.30400848388672, 94.34400177001953, 96.98400115966797, 103.21199798583984, 109.4520034790039, 114.49199676513672, 119.99999237060547, 123.16999816894531 ]
-  }, {
-    "%ID" : 380,
+    "%ID" : 397,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 71.06400299072266, 78.73200225830078, 81.61200714111328, 87.60000610351562, 93.34800720214844, 99.81600952148438, 106.27201080322266, 111.08401489257812, 113.96401977539062, 118.75202178955078, 122.44999694824219, 124.8499984741211 ]
   }, {
-    "%ID" : 383,
+    "%ID" : 400,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 76.33200073242188, 82.33200073242188, 87.83999633789062, 93.81599426269531, 97.91999816894531, 103.89599609375, 106.55999755859375, 113.27999877929688, 115.91999816894531, 119.98799133300781, 125.73599243164062, 135.32398986816406, 137.9879913330078, 144.22799682617188, 147.09600830078125, 153.5760040283203, 159.5760040283203, 165.8040008544922, 168.44400024414062, 174.6840057373047, 180.66000366210938, 184.32000732421875, 187.15200805664062, 192.1920166015625, 194.83201599121094, 200.80801391601562, 207.072021484375, 212.11203002929688, 217.6200408935547, 220.26004028320312, 228.88804626464844, 231.52804565429688, 235.59605407714844, 242.06405639648438, 244.7040557861328, 250.94406127929688, 257.4120788574219, 260.0520935058594, 265.0920715332031, 267.7320861816406, 273.7080993652344, 279.7200927734375, 283.8000793457031, 286.4400939941406, 291.4800720214844, 297.2280578613281, 303.48004150390625, 308.2680358886719, 314.4960632324219, 317.8800048828125 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.29199981689453, 83.53199768066406, 86.1719970703125, 92.41199493408203, 98.6520004272461, 101.5199966430664, 106.55998992919922, 112.30799102783203, 118.55999755859375, 123.5999984741211, 129.5760040283203, 133.9080047607422, 136.7880096435547, 139.42800903320312, 142.29600524902344, 148.5360107421875, 153.57601928710938, 159.3240203857422, 162.20401000976562, 164.84400939941406, 169.63201904296875, 175.60801696777344, 181.8720245361328, 184.7400360107422, 187.38003540039062, 193.6200408935547, 196.26004028320312, 200.3280487060547, 206.56805419921875, 212.54405212402344, 215.2080535888672, 220.9560546875, 225.7560577392578, 230.7960662841797, 236.77206420898438, 243.03607177734375, 249.5040740966797, 252.14407348632812, 258.3840637207031, 264.132080078125, 266.7720947265625, 271.81207275390625, 278.28009033203125, 280.92010498046875, 287.16009521484375, 293.6280822753906, 296.5080871582031, 299.1481018066406, 304.41607666015625, 307.05609130859375, 309.9241027832031, 316.1640930175781, 318.8041076660156, 323.8440856933594, 329.5920715332031, 332.4720764160156, 335.1120910644531, 339.90008544921875, 343.96807861328125, 349.716064453125, 355.47607421875, 361.45208740234375, 364.1160888671875, 367.2240905761719, 370.10406494140625, 373.3399963378906 ]
   }, {
-    "%ID" : 386,
+    "%ID" : 403,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 71.06400299072266, 77.052001953125, 81.36000061035156, 87.36000061035156, 93.3479995727539, 97.4280014038086, 107.2560043334961, 113.2560043334961, 119.72400665283203, 123.80400848388672, 127.48999786376953, 130.1300048828125 ]
+    "%ELEMENTS" : [ 71.06400299072266, 77.052001953125, 81.36000061035156, 87.36000061035156, 93.3479995727539, 97.4280014038086, 107.2560043334961, 113.33000183105469, 119.79800415039062, 123.87800598144531, 127.48999786376953, 130.1300048828125 ]
   }, {
-    "%ID" : 389,
+    "%ID" : 406,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 76.58399963378906, 80.66400146484375, 86.63999938964844, 92.41200256347656, 96.47999572753906, 106.0679931640625, 112.04399108886719, 118.343994140625, 122.3639907836914, 125.03998565673828, 133.66798400878906, 136.3079833984375, 140.37599182128906, 146.61599731445312, 149.25599670410156, 152.12399291992188, 158.36399841308594, 162.4320068359375, 166.5120086669922, 172.260009765625, 181.84800720214844, 188.1120147705078, 192.90000915527344, 197.9400177001953, 204.18002319335938, 206.8200225830078, 212.8080291748047, 216.88803100585938, 219.75604248046875, 226.47604370117188, 229.1160430908203, 233.18405151367188, 238.9320526123047, 248.52005004882812, 251.18405151367188, 257.65203857421875, 260.29205322265625, 266.7720642089844, 273.0000915527344, 279.0000915527344, 281.6401062011719, 284.50811767578125, 290.74810791015625, 293.6161193847656, 299.6161193847656, 304.6560974121094, 308.7240905761719, 311.59210205078125, 317.83209228515625, 324.07208251953125, 328.8600769042969, 331.5000915527344, 337.7400817871094, 343.4880676269531, 348.2880554199219, 350.9280700683594, 357.1680603027344, 363.1440734863281, 369.1560974121094, 375.3960876464844, 378.26409912109375, 380.90411376953125, 387.14410400390625, 389.78411865234375, 394.09210205078125, 396.73211669921875, 402.4801025390625, 406.5600891113281, 412.5361022949219, 418.8000793457031, 421.9080810546875, 424.548095703125, 434.8561096191406, 438.93609619140625, 443.7240905761719, 446.83209228515625, 449.47210693359375, 455.9521179199219, 461.9281311035156, 466.0321044921875, 471.7801208496094, 477.7561340332031, 482.3500061035156, 484.989990234375, 491.22998046875, 496.97796630859375, 501.7779541015625 ]
+    "%ELEMENTS" : [ 70.8239974975586, 76.58399963378906, 82.82400512695312, 88.80000305175781, 91.46400451660156, 97.70401000976562, 103.68000793457031, 108.97201538085938, 111.61201477050781, 116.40001678466797, 119.0400161743164, 125.28001403808594, 131.74801635742188, 134.3880157470703, 143.01602172851562, 148.76402282714844, 153.56402587890625, 156.2040252685547, 165.79202270507812, 171.54002380371094, 177.8040313720703, 183.780029296875, 186.44403076171875, 190.04403686523438, 196.28404235839844, 200.592041015625, 203.23204040527344, 208.02003479003906, 214.26004028320312, 218.3400421142578, 224.08802795410156, 226.72802734375, 231.76803588867188, 237.75604248046875, 240.3960418701172, 243.03604125976562, 247.1160430908203, 253.092041015625, 257.9040222167969, 263.8800354003906, 268.9560241699219, 273.01202392578125, 275.65203857421875, 282.12005615234375, 288.36004638671875, 291.00006103515625, 297.24005126953125, 301.06805419921875, 303.70806884765625, 307.77606201171875, 314.2440490722656, 320.2200622558594, 322.8840637207031, 328.6320495605469, 332.2440490722656, 335.84405517578125, 341.820068359375, 346.89605712890625, 350.9520568847656, 356.9280700683594, 363.1920471191406, 365.8320617675781, 370.8720397949219, 377.3400573730469, 379.9800720214844, 386.2200622558594, 392.68804931640625, 395.32806396484375, 400.1160583496094, 406.0920715332031, 411.1680603027344, 415.22406005859375, 417.86407470703125, 424.10406494140625, 430.34405517578125, 433.4520568847656, 436.0920715332031, 442.080078125, 448.320068359375, 454.29608154296875, 456.9600830078125, 461.7480773925781, 467.9880676269531, 472.06805419921875, 477.8160705566406, 483.7920837402344, 487.89605712890625, 493.404052734375, 496.0440673828125, 498.68408203125, 503.4720764160156 ]
   }, {
-    "%ID" : 392,
+    "%ID" : 409,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 83.04000091552734, 89.052001953125, 95.29200744628906, 97.9320068359375, 103.68000793457031, 109.93201446533203, 115.44001770019531, 118.08001708984375, 122.8680191040039, 128.84402465820312, 135.1080322265625, 137.74803161621094, 141.8160400390625, 148.05604553222656, 150.92405700683594, 155.00405883789062, 160.9800567626953, 166.75204467773438, 172.99205017089844, 175.63204956054688, 181.3800506591797, 185.70005798339844, 188.34005737304688, 193.8480682373047, 196.48806762695312, 200.5560760498047, 206.3040771484375, 211.82408142089844, 217.80007934570312, 220.46408081054688, 227.18408203125, 229.82408142089844, 233.89208984375, 239.6400909423828, 249.22808837890625, 251.89208984375, 258.3600769042969, 261.0000915527344, 267.4801025390625, 273.7081298828125, 279.7081298828125, 282.34814453125, 287.1361389160156, 293.3761291503906, 299.6161193847656, 306.0841064453125, 308.72412109375, 314.9521484375, 324.5401611328125, 330.51617431640625, 336.816162109375, 340.8361511230469, 345.6601257324219, 348.76812744140625, 351.40814208984375, 357.1681213378906, 363.4081115722656, 369.3841247558594, 372.0481262207031, 376.1161193847656, 380.19610595703125, 386.172119140625, 391.944091796875, 396.0120849609375, 405.60009765625, 411.57611083984375, 417.8760986328125, 421.8960876464844, 424.57208251953125, 427.21209716796875, 432.0000915527344, 434.6401062011719, 439.4281005859375, 445.6680908203125, 451.9080810546875, 458.1480712890625, 460.7880859375, 466.76409912109375, 476.35211181640625, 482.3761291503906, 488.6161193847656, 492.6841125488281, 498.6601257324219, 504.9241027832031 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 79.7040023803711, 85.4520034790039, 91.70401000976562, 97.94401550292969, 103.92001342773438, 110.41201782226562, 113.05201721191406, 117.12001037597656, 123.3600082397461, 126.00000762939453, 131.26800537109375, 137.5080108642578, 147.09600830078125, 153.34800720214844, 155.98800659179688, 161.96400451660156, 166.05601501464844, 172.03201293945312, 174.69601440429688, 180.2040252685547, 183.07203674316406, 187.15203857421875, 193.12803649902344, 202.71603393554688, 208.99203491210938, 214.50003051757812, 220.4760284423828, 223.14002990722656, 227.20803833007812, 233.4480438232422, 239.42404174804688, 242.08804321289062, 246.1560516357422, 252.39605712890625, 261.98406982421875, 268.236083984375, 272.5440673828125, 275.18408203125, 280.93206787109375, 287.1840515136719, 293.65203857421875, 296.29205322265625, 300.36004638671875, 306.1080322265625, 311.6280212402344, 317.6040344238281, 320.2680358886719, 324.3360290527344, 330.5760192871094, 336.5520324707031, 339.2160339355469, 344.0040283203125, 350.2440185546875, 354.3240051269531, 358.40399169921875, 364.87200927734375, 371.11199951171875, 377.35198974609375, 383.8199768066406, 386.4599914550781, 392.6999816894531, 398.447998046875, 401.0880126953125, 403.72802734375, 409.23602294921875, 418.82403564453125, 425.0760192871094, 431.54400634765625, 434.18402099609375, 438.25201416015625, 440.89202880859375, 445.6800231933594, 450.468017578125, 456.7080078125, 462.68402099609375, 465.3480224609375, 468.9480285644531, 475.1880187988281, 479.4960021972656 ]
   }, {
-    "%ID" : 395,
+    "%ID" : 412,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 79.45199584960938, 82.09199523925781, 86.15998840332031, 92.39999389648438, 95.03999328613281, 100.78799438476562, 103.43999481201172, 109.68000030517578, 115.4280014038086, 118.08000183105469, 124.06800079345703, 130.30799865722656, 135.34800720214844, 141.32400512695312, 147.5880126953125, 150.45602416992188, 156.69602966308594, 159.33602905273438, 165.31202697753906, 169.40403747558594, 172.6300048828125 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 79.7040023803711, 84.49200439453125, 88.55999755859375, 94.79999542236328, 97.43999481201172, 103.67999267578125, 109.42799377441406, 112.0679931640625, 117.10799407958984, 123.09599304199219, 125.73599243164062, 128.37599182128906, 134.35198974609375, 139.64398193359375, 145.39198303222656, 154.97998046875, 157.64398193359375, 163.8839874267578, 169.63198852539062, 173.7119903564453, 176.57998657226562, 182.8199920654297, 189.05999755859375, 192.16799926757812, 194.80799865722656, 201.01199340820312, 207.28799438476562, 212.07598876953125, 216.1439971923828, 222.38400268554688, 228.62400817871094, 234.60000610351562, 238.70401000976562, 244.45201110839844, 248.7720184326172, 251.41201782226562, 256.9200439453125, 262.89605712890625, 265.56005859375, 271.30804443359375, 277.5600280761719, 280.42803955078125, 286.6800231933594, 292.18804931640625, 297.93603515625, 304.1880187988281, 308.2560119628906, 310.8960266113281, 316.16400146484375, 322.40399169921875, 328.3800048828125, 337.968017578125, 344.2440185546875, 348.31201171875, 354.552001953125, 360.52801513671875, 364.6319885253906, 370.3799743652344, 376.6319580078125, 382.13995361328125, 384.77996826171875, 387.41998291015625, 392.2079772949219, 394.8479919433594, 400.115966796875, 406.35595703125, 412.595947265625, 417.3839416503906, 420.0239562988281, 426.2639465332031, 432.4919738769531, 436.57196044921875, 442.5479736328125, 448.81195068359375, 451.45196533203125, 457.69195556640625, 463.66796875, 469.93194580078125, 476.5899963378906, 482.8299865722656, 489.0699768066406, 491.93798828125, 498.177978515625, 503.9259948730469, 506.5660095214844, 512.8060302734375, 519.0460205078125 ]
   }, {
-    "%ID" : 398,
+    "%ID" : 415,
+    "%TYPE" : "uima.cas.FloatArray",
+    "%ELEMENTS" : [ 70.8239974975586, 74.8919906616211, 81.13199615478516, 87.10799407958984, 89.7719955444336, 93.85199737548828, 99.82799530029297, 104.63999938964844, 110.8800048828125, 113.52000427246094, 117.58799743652344, 122.3759994506836, 125.01599884033203, 131.25599670410156, 134.8560028076172, 137.49600219726562, 141.5640106201172, 147.80401611328125, 153.78001403808594, 156.67201232910156, 162.91201782226562, 165.55201721191406, 170.3400115966797, 174.40802001953125, 180.6480255126953, 186.88803100585938, 192.6360321044922, 196.71603393554688, 202.95603942871094, 209.42404174804688, 212.0640411376953, 218.30404663085938, 224.05203247070312, 226.69203186035156, 231.73204040527344, 237.7200469970703, 240.36004638671875, 243.0000457763672, 248.748046875, 255.0000457763672, 260.988037109375, 263.6280517578125, 269.13604736328125, 273.9240417480469, 276.5640563964844, 281.35205078125, 284.760009765625 ]
+  }, {
+    "%ID" : 418,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 71.06400299072266, 76.57200622558594, 83.05200958251953, 85.93201446533203, 88.81201934814453, 95.26802062988281, 104.20999908447266, 107.80999755859375, 114.29000091552734, 120.77000427246094, 124.37000274658203, 127.25 ]
   }, {
-    "%ID" : 401,
+    "%ID" : 421,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.33999633789062, 83.31599426269531, 89.05199432373047, 95.29199981689453, 97.93199920654297, 103.68000030517578, 107.77200317382812, 110.41200256347656, 114.24000549316406, 120.4800033569336, 123.34800720214844, 125.98800659179688, 132.22801208496094, 140.92999267578125, 144.52999877929688, 150.77000427246094, 157.010009765625, 161.79800415039062, 164.43800354003906, 170.42601013183594, 176.666015625, 182.90602111816406, 185.77403259277344, 188.41403198242188, 194.1620330810547, 200.41403198242188, 206.8820343017578, 210.9620361328125, 216.7100372314453, 220.7900390625, 227.03004455566406, 231.11004638671875, 236.61805725097656, 239.258056640625, 243.32606506347656, 249.30206298828125, 254.1140594482422, 258.18206787109375, 262.9700622558594, 265.6100769042969, 271.3580627441406, 275.4500427246094, 281.4260559082031, 284.0900573730469, 289.8380432128906, 293.9300231933594, 298.010009765625, 303.75799560546875, 310.0099792480469, 315.99798583984375, 321.9739990234375, 328.23797607421875, 330.87799072265625, 334.94598388671875, 341.18597412109375, 343.82598876953125, 353.41400146484375, 359.666015625, 366.1340026855469, 368.7740173339844, 372.8420104980469, 379.0820007324219, 383.3899841308594, 386.0299987792969, 390.0979919433594, 396.3379821777344, 402.3139953613281, 404.9779968261719, 410.9540100097656, 414.614013671875, 418.1780090332031, 424.1540222167969, 429.2300109863281, 433.5260009765625, 436.166015625, 441.6740417480469, 447.6500549316406, 453.9140319824219, 459.8900451660156, 464.7020263671875, 469.4900207519531, 472.1300354003906, 478.3700256347656, 481.97003173828125, 484.61004638671875, 488.67803955078125, 494.91802978515625, 500.89404296875 ]
+    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 85.21199798583984, 88.31999969482422, 90.95999908447266, 97.16400146484375, 102.94800567626953, 109.1880111694336, 111.82801055908203, 118.0680160522461, 122.85601806640625, 125.49601745605469, 134.1240234375, 136.76402282714844, 139.63201904296875, 142.2720184326172, 144.91201782226562, 151.1520233154297, 157.38002014160156, 160.02001953125, 165.06002807617188, 167.9280242919922, 174.16802978515625, 178.95602416992188, 184.93202209472656, 187.5960235595703, 193.10403442382812, 195.74403381347656, 205.33203125, 211.5840301513672, 217.82403564453125, 220.4640350341797, 224.77203369140625, 231.0120391845703, 235.092041015625, 241.0680389404297, 247.33204650878906, 249.9720458984375, 255.96005249023438, 259.56005859375, 263.6280517578125, 269.60406494140625, 273.7080383300781, 276.3480529785156, 280.4160461425781, 286.6560363769531, 292.6320495605469, 295.2960510253906, 300.08404541015625, 306.32403564453125, 310.63201904296875, 316.3800354003906, 322.3560485839844, 326.46002197265625, 331.968017578125, 334.6080322265625, 338.676025390625, 344.916015625, 347.5560302734375, 352.3440246582031, 358.3200378417969, 363.3960266113281, 369.6240234375, 373.7040100097656, 379.6800231933594, 382.3440246582031, 386.42401123046875, 392.4000244140625, 397.47601318359375, 403.7040100097656, 409.2120361328125, 415.18804931640625, 419.2920227050781, 424.8000183105469, 427.4400329589844, 433.1880187988281, 439.6679992675781, 445.9079895019531, 448.5480041503906, 454.7879943847656, 460.7640075683594, 464.8559875488281, 470.8320007324219, 475.9079895019531, 479.9639892578125, 482.60400390625, 488.58001708984375, 494.35198974609375, 498.65997314453125, 501.29998779296875, 506.8079833984375 ]
   }, {
-    "%ID" : 404,
+    "%ID" : 424,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 74.8919906616211, 81.13199615478516, 87.10799407958984, 91.21199798583984, 96.95999908447266, 103.21200561523438, 108.72000122070312, 111.36000061035156, 117.10800170898438, 123.3600082397461, 129.60000610351562, 132.468017578125, 138.70802307128906, 144.94802856445312, 149.0280303955078, 158.61602783203125, 164.61602783203125, 167.2560272216797, 169.89602661132812, 174.6840362548828, 180.6600341796875, 183.32403564453125, 187.3920440673828, 193.63204956054688, 199.60804748535156, 202.5000457763672, 209.2200469970703, 211.86004638671875, 215.9280548095703, 221.67605590820312, 231.26405334472656, 233.9280548095703, 240.39605712890625, 243.0360565185547, 249.51605224609375, 255.74404907226562, 261.7440490722656, 264.3840637207031, 267.0240783691406, 273.0000915527344, 278.5321044921875, 284.760009765625, 287.4000244140625, 290.760009765625 ]
+    "%ELEMENTS" : [ 70.8239974975586, 75.61199951171875, 78.25199890136719, 84.0, 90.24000549316406, 95.02800750732422, 97.66800689697266, 103.90800476074219, 107.50801086425781, 110.14801025390625, 116.38801574707031, 122.62801361083984, 127.416015625, 132.20401000976562, 134.84400939941406, 141.31201171875, 143.95201110839844, 149.92800903320312, 152.59201049804688, 157.63201904296875, 163.8720245361328, 173.46002197265625, 179.9400177001953, 182.58001708984375, 185.44801330566406, 190.48802185058594, 196.23602294921875, 200.31602478027344, 202.95602416992188, 209.19602966308594, 215.43603515625, 220.22402954101562, 223.33203125, 225.97203063964844, 232.488037109375, 238.4640350341797, 244.2000274658203, 250.44003295898438, 253.0800323486328, 258.8280334472656, 263.14801025390625, 265.78802490234375, 269.3880310058594, 275.8560485839844, 278.4960632324219, 281.36407470703125, 287.60406494140625, 296.5199890136719, 300.1199951171875, 306.3599853515625, 312.8279724121094, 315.69598388671875, 321.4439697265625, 327.6959533691406, 333.9359436035156, 340.1759338378906, 343.0439453125, 349.283935546875, 353.3519287109375, 362.93994140625, 368.91595458984375, 375.2159423828125, 379.2359313964844, 384.0599060058594, 386.6999206542969, 392.4479064941406, 396.5398864746094, 402.5158996582031, 405.1799011230469, 409.9678955078125, 415.94390869140625, 420.035888671875, 422.6759033203125, 426.743896484375, 432.98388671875, 435.6239013671875, 441.37188720703125, 446.171875, 450.9598693847656, 456.9358825683594, 461.5198669433594, 466.307861328125, 468.9478759765625, 473.015869140625, 479.255859375, 485.23187255859375 ]
   }, {
-    "%ID" : 407,
+    "%ID" : 427,
+    "%TYPE" : "uima.cas.FloatArray",
+    "%ELEMENTS" : [ 70.8239974975586, 74.90399932861328, 80.87999725341797, 85.69200134277344, 91.9320068359375, 98.17200469970703, 104.4120101928711, 109.20001220703125, 115.17601013183594, 117.84001159667969, 121.90800476074219, 128.14801025390625, 130.85000610351562, 134.9180145263672, 141.15802001953125, 147.13401794433594, 149.7980194091797, 153.86602783203125, 160.1060333251953, 166.08203125, 170.18603515625, 176.17404174804688, 182.41404724121094, 187.92205810546875, 190.5620574951172, 196.31005859375, 202.5620574951172, 208.80206298828125, 211.4420623779297, 221.2700653076172, 223.91006469726562, 230.1500701904297, 232.79006958007812, 242.61807250976562, 245.25807189941406, 250.04608154296875, 256.0220947265625, 258.68609619140625, 262.75408935546875, 268.99407958984375, 274.9700927734375, 277.63409423828125, 281.94207763671875, 284.58209228515625, 289.3700866699219, 294.8780822753906, 297.5180969238281, 303.7580871582031, 307.35809326171875, 310.2261047363281, 314.5340881347656, 320.5101013183594, 325.5860900878906, 331.8140869140625, 335.8940734863281, 339.97406005859375, 345.9500732421875, 352.21405029296875, 357.2540283203125, 363.23004150390625, 366.8599853515625 ]
+  }, {
+    "%ID" : 430,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 71.06400299072266, 77.78400421142578, 83.78400421142578, 88.80000305175781, 95.29200744628906, 105.12000274658203, 114.94800567626953, 120.94800567626953, 127.41600799560547, 133.88401794433594, 139.87200927734375, 143.95201110839844, 146.83200073242188, 153.28799438476562, 159.77999877929688, 164.5679931640625, 168.30999755859375, 170.7100067138672 ]
   }, {
-    "%ID" : 410,
+    "%ID" : 433,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 85.21199798583984, 90.0, 93.10800170898438, 95.74800109863281, 102.2280044555664, 108.2040023803711, 112.3080062866211, 118.0560073852539, 124.0320053100586, 128.13600158691406, 130.7760009765625, 133.41600036621094, 138.20399475097656, 140.843994140625, 145.63198852539062, 149.6999969482422, 153.77999877929688, 160.02000427246094, 166.260009765625, 172.00799560546875, 174.6479949951172, 180.156005859375, 182.79600524902344, 188.54400634765625, 194.79600524902344, 200.3040008544922, 202.94400024414062, 207.73199462890625, 213.70799255371094, 219.9720001220703, 222.61199951171875, 226.6800079345703, 233.14801025390625, 235.7880096435547, 245.37600708007812, 251.12400817871094, 253.7880096435547, 260.02801513671875, 264.09600830078125, 269.843994140625, 272.7239990234375, 278.9639892578125, 281.60400390625, 287.35198974609375, 290.0039978027344, 296.2439880371094, 302.2319641113281, 304.8719787597656, 310.8599548339844, 317.0999450683594, 322.1399230957031, 328.1159362792969, 334.3799133300781, 337.0199279785156, 343.4879150390625, 346.1279296875, 352.10394287109375, 356.1959228515625, 358.8359375, 364.58392333984375, 370.8359069824219, 377.0758972167969, 379.7159118652344, 385.6919250488281, 391.9559020996094, 396.743896484375, 403.2118835449219, 407.2918701171875, 413.26788330078125, 415.931884765625, 421.67987060546875, 427.9318542480469, 433.9078674316406, 440.1718444824219, 446.4118347167969, 452.1598205566406, 456.23980712890625, 462.2158203125, 464.87982177734375, 469.6678161621094, 476.1358337402344, 482.3758239746094, 486.455810546875, 491.49578857421875, 497.4718017578125, 502.2837829589844, 504.9237976074219, 511.1637878417969, 514.9918212890625 ]
+    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 85.21199798583984, 88.31999969482422, 90.95999908447266, 97.16400146484375, 102.94800567626953, 109.1880111694336, 111.82801055908203, 118.0680160522461, 122.85601806640625, 125.49601745605469, 128.13601684570312, 132.92401123046875, 135.5640106201172, 139.64401245117188, 145.62001037597656, 150.91201782226562, 157.1520233154297, 166.74002075195312, 176.32801818847656, 182.3400115966797, 188.58001708984375, 194.8200225830078, 200.7960205078125, 207.28802490234375, 209.9280242919922, 213.99603271484375, 220.2360382080078, 222.87603759765625, 228.38404846191406, 234.36004638671875, 240.37203979492188, 246.61204528808594, 249.25204467773438, 255.7200469970703, 261.9600524902344, 267.4680480957031, 272.25604248046875, 274.89605712890625, 279.93603515625, 285.68402099609375, 288.3360290527344, 290.9760437011719, 296.4840393066406, 299.1240539550781, 304.8720703125, 311.10009765625, 317.340087890625, 321.4080810546875, 324.048095703125, 330.02410888671875, 332.6881103515625, 338.9281005859375, 345.1680908203125, 349.9560852050781, 354.3800048828125, 357.9800109863281, 364.4480285644531, 370.6880187988281, 376.6640319824219, 380.76800537109375, 386.5159912109375, 390.5959777832031, 393.2359924316406, 398.7440185546875, 404.72003173828125, 407.384033203125, 412.89202880859375, 415.53204345703125, 421.280029296875, 427.5320129394531, 434.0, 436.6400146484375, 446.22802734375, 451.97601318359375, 454.6400146484375, 460.8800048828125, 464.947998046875, 470.69598388671875, 473.57598876953125, 479.81597900390625, 482.45599365234375, 488.2039794921875 ]
   }, {
-    "%ID" : 413,
+    "%ID" : 436,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.54399871826172, 80.18399810791016, 84.25199127197266, 89.99999237060547, 99.5879898071289, 102.25199127197266, 108.7199935913086, 111.35999298095703, 117.83999633789062, 123.83999633789062, 129.83999633789062, 132.947998046875, 135.58799743652344, 141.33599853515625, 147.5760040283203, 151.656005859375, 155.72401428222656, 161.96401977539062, 167.9400177001953, 172.0440216064453, 181.8720245361328, 188.11203002929688, 192.19203186035156, 198.16802978515625, 201.30003356933594, 203.94003295898438, 208.02003479003906, 213.99603271484375, 219.7680206298828, 226.00802612304688, 228.6480255126953, 234.6360321044922, 238.71603393554688, 241.3560333251953, 250.94403076171875, 256.9200439453125, 263.22003173828125, 266.0640563964844, 271.1040344238281, 276.8520202636719, 279.5040283203125, 282.14404296875, 287.4120178222656, 293.6520080566406, 299.6280212402344, 304.7040100097656, 310.44000244140625, 314.2799987792969, 320.5199890136719, 326.7599792480469, 331.5479736328125, 334.18798828125, 339.93597412109375, 344.0279541015625, 350.00396728515625, 352.66796875, 356.7479553222656, 362.7239685058594, 368.0159606933594, 374.2559509277344, 383.8439636230469, 393.4319763183594, 399.4440002441406, 405.6839904785156, 411.9239807128906, 417.8999938964844, 424.1639709472656, 426.8039855957031, 431.1119689941406, 437.3519592285156, 439.9919738769531, 449.5799865722656, 455.8320007324219, 462.29998779296875, 464.94000244140625, 469.00799560546875, 475.24798583984375, 479.55596923828125, 482.19598388671875, 486.26397705078125, 492.50396728515625, 498.47998046875 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.06400299072266, 82.81200408935547, 85.46400451660156, 91.21200561523438, 97.4640121459961, 102.5040054321289, 108.4800033569336, 114.97200775146484, 117.85200500488281, 120.49200439453125, 126.96000671386719, 129.60000610351562, 135.34799194335938, 141.64999389648438, 145.25, 149.0780029296875, 151.71800231933594, 157.9580078125, 163.9340057373047, 168.0380096435547, 170.90602111816406, 177.14602661132812, 179.78602600097656, 185.76202392578125, 189.85403442382812, 192.9620361328125, 195.60203552246094, 201.1100311279297, 207.36203002929688, 211.44203186035156, 215.51004028320312, 221.7500457763672, 227.97804260253906, 232.05804443359375, 234.93804931640625, 237.80606079101562, 244.0460662841797, 250.02206420898438, 252.68606567382812, 257.47406005859375, 263.71405029296875, 269.95404052734375, 276.4220275878906, 279.0620422363281, 285.3020324707031, 288.1700439453125, 292.2500305175781, 298.2260437011719, 303.998046875, 310.238037109375, 313.1060485839844, 318.8540344238281, 322.9460144042969, 325.5860290527344, 331.0940246582031, 333.7340393066406, 339.4820251464844, 343.56201171875, 347.6300048828125, 353.60601806640625, 359.8699951171875, 366.1099853515625, 368.75, 372.5780029296875, 378.8179931640625, 381.4580078125, 384.3260192871094, 390.5660095214844, 399.5, 403.1000061035156, 409.3399963378906, 415.8079833984375, 418.447998046875, 424.42401123046875, 429.7160339355469, 435.4640197753906, 445.0520324707031, 447.7160339355469, 453.9560241699219, 459.7040100097656, 463.78399658203125, 466.42401123046875, 472.89202880859375, 479.13201904296875, 483.9200134277344, 486.5600280761719, 492.3080139160156, 498.55999755859375, 504.79998779296875 ]
   }, {
-    "%ID" : 416,
+    "%ID" : 439,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.54399871826172, 80.18399810791016, 84.25199127197266, 89.99999237060547, 99.5879898071289, 102.25199127197266, 108.7199935913086, 111.35999298095703, 117.83999633789062, 123.83999633789062, 130.0679931640625, 132.70799255371094, 137.49598693847656, 141.56399536132812, 147.31199645996094, 151.39199829101562, 157.6320037841797, 162.4199981689453, 165.05999755859375, 170.80799865722656, 177.05999755859375, 183.3000030517578, 185.94000244140625, 191.68800354003906, 197.94000244140625, 200.80799865722656, 207.05999755859375, 211.84799194335938, 215.91600036621094, 218.55599975585938, 222.62400817871094, 228.864013671875, 234.8400115966797, 237.50401306152344, 241.572021484375, 247.81202697753906, 253.78802490234375, 257.8919982910156, 263.6399841308594, 269.8919677734375, 275.39996337890625, 278.03997802734375, 283.7879638671875, 288.58795166015625, 291.22796630859375, 297.46795654296875, 303.4439697265625, 308.51995849609375, 314.7359619140625, 319.5239562988281, 324.31195068359375, 330.0599365234375, 334.15191650390625, 339.659912109375, 342.8399963378906 ]
+    "%ELEMENTS" : [ 70.8239974975586, 79.45199584960938, 85.19999694824219, 89.27999114990234, 94.31998443603516, 100.55998992919922, 103.19998931884766, 106.79999542236328, 113.03999328613281, 117.1199951171875, 119.98799133300781, 126.22799682617188, 132.20399475097656, 140.8560028076172, 143.49600219726562, 148.28399658203125, 153.88999938964844, 163.47799682617188, 169.72999572753906, 173.79800415039062, 180.0380096435547, 189.62600708007812, 194.42601013183594, 197.35000610351562 ]
   }, {
-    "%ID" : 419,
+    "%ID" : 442,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 77.06399536132812, 79.70399475097656, 85.94400024414062, 92.18400573730469, 95.08799743652344, 99.16799926757812, 105.14399719238281, 110.91600036621094, 116.66400146484375, 120.7560043334961, 126.99600982666016, 131.78399658203125, 134.92999267578125 ]
+    "%ELEMENTS" : [ 70.8239974975586, 77.06399536132812, 79.70399475097656, 85.94400024414062, 92.18400573730469, 95.052001953125, 99.13200378417969, 105.10800170898438, 110.8800048828125, 116.62800598144531, 120.72000885009766, 126.96001434326172, 131.7480010986328, 134.92999267578125 ]
   }, {
-    "%ID" : 422,
+    "%ID" : 445,
     "%TYPE" : "uima.cas.FloatArray",
-    "%ELEMENTS" : [ 70.8239974975586, 78.25199127197266, 82.33199310302734, 85.43999481201172, 88.07999420166016, 95.02799224853516, 101.27999877929688, 107.52000427246094, 113.26800537109375, 115.92000579833984, 126.2280044555664, 132.46800231933594, 135.33599853515625, 137.9759979248047, 143.95199584960938, 148.05599975585938, 150.6959991455078, 161.00399780273438, 166.97999572753906, 173.4720001220703, 176.11199951171875, 181.15200805664062, 186.90000915527344, 189.77999877929688, 192.4199981689453, 198.62399291992188, 202.739990234375, 208.4879913330078, 213.56399536132812, 217.60800170898438, 220.2480010986328, 225.2880096435547, 231.26400756835938, 233.92800903320312, 241.59600830078125, 245.67601013183594, 248.7840118408203, 251.42401123046875, 261.7320251464844, 267.9720153808594, 270.84002685546875, 273.48004150390625, 279.4560546875, 284.0400085449219 ]
+    "%ELEMENTS" : [ 70.8239974975586, 78.25199127197266, 82.33199310302734, 85.43999481201172, 88.07999420166016, 95.02799224853516, 101.27999877929688, 107.52000427246094, 113.26800537109375, 115.92000579833984, 126.2280044555664, 132.46800231933594, 135.33599853515625, 137.9759979248047, 143.95199584960938, 148.05599975585938, 151.00999450683594 ]
   }, {
-    "%ID" : 425,
+    "%ID" : 448,
+    "%TYPE" : "uima.cas.FloatArray",
+    "%ELEMENTS" : [ 70.8239974975586, 81.13199615478516, 87.10799407958984, 93.37199401855469, 96.01199340820312, 101.05199432373047, 106.79999542236328, 109.45199584960938, 112.09199523925781, 118.2959976196289, 122.41200256347656, 128.40000915527344, 133.4400177001953, 137.50802612304688, 140.1480255126953, 145.1880340576172, 151.16403198242188, 153.82803344726562, 161.25604248046875, 165.33604431152344, 168.4440460205078, 171.08404541015625, 181.3920440673828, 187.86004638671875, 190.5000457763672, 193.14004516601562, 199.1160430908203, 203.58999633789062 ]
+  }, {
+    "%ID" : 451,
     "%TYPE" : "uima.cas.FloatArray",
     "%ELEMENTS" : [ 70.8239974975586 ]
   }, {
-    "%ID" : 328,
+    "%ID" : 345,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 331,
+    "%ID" : 348,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 334,
+    "%ID" : 351,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 337,
+    "%ID" : 354,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 340,
+    "%ID" : 357,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 343,
+    "%ID" : 360,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 346,
+    "%ID" : 363,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 349,
+    "%ID" : 366,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 352,
+    "%ID" : 369,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 355,
+    "%ID" : 372,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 358,
+    "%ID" : 375,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 361,
+    "%ID" : 378,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 364,
+    "%ID" : 381,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 384,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 367,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 370,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 373,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 376,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 379,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 382,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 385,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 388,
+    "%ID" : 387,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 391,
+    "%ID" : 390,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 394,
+    "%ID" : 393,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 397,
+    "%ID" : 396,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 400,
+    "%ID" : 399,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 403,
+    "%ID" : 402,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 406,
-    "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-  }, {
-    "%ID" : 409,
+    "%ID" : 405,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 412,
+    "%ID" : 408,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 415,
+    "%ID" : 411,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 418,
+    "%ID" : 414,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 417,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 420,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 423,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 426,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 429,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 432,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 435,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 438,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 441,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 421,
+    "%ID" : 444,
     "%TYPE" : "uima.cas.IntegerArray",
-    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
   }, {
-    "%ID" : 424,
+    "%ID" : 447,
+    "%TYPE" : "uima.cas.IntegerArray",
+    "%ELEMENTS" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+  }, {
+    "%ID" : 450,
     "%TYPE" : "uima.cas.IntegerArray",
     "%ELEMENTS" : [ 1 ]
   }, {
@@ -3293,12 +3472,12 @@
     "sofaNum" : 1,
     "sofaID" : "_InitialView",
     "mimeType" : "text",
-    "sofaString" : "\r\n\r\n[Arztpraxis Dr. Müller]  \r\n[Dresdener Str. 17]  \r\n[45678 Berlin]  \r\n[Tel: 03520-55428]  \r\n[E-Mail: info@drmueller.de] \r\n\r\nMedical Report  \r\n\r\nPatient: Mrs. Sophie Berger, born on March 10, 1975, residing at Rosenweg 5, 63446 \r\nMannheim, patient number 134523, presented today with symptoms such as persistent \r\nfatigue, dizziness, weakness, and pale skin. \r\n\r\nHistory:  \r\nMrs. Berger presented today with symptoms such as persistent fatigue, dizziness, weakness, \r\nand pale skin. She reported a gradual deterioration of her health over the past few months. \r\n\r\nFindings:  \r\nClinical examinations and laboratory results indicate a severe deficiency of Vitamin B12. The \r\nserum B12 level is 110 pg/ml (reference range: 180-914 pg/ml). Elevated levels of \r\nmethylmalonic acid and homocysteine further indicate a clear case of Vitamin B12 \r\ndeficiency. \r\n\r\nDiagnosis:  \r\nSevere Vitamin B12 deficiency with no clear cause. \r\n\r\nTreatment:  \r\nTreatment with intramuscular Vitamin B12 injections has been initiated. Mrs. Berger has \r\nbeen advised to regularly take Vitamin B12 supplements. The treatment is supplemented \r\nwith a balanced diet. \r\n\r\nFollow-up:  \r\n\r\nRegular follow-ups and laboratory tests are arranged to monitor the effectiveness of the \r\ntherapy and normalize the Vitamin B12 level. \r\n\r\nRecommendations:  \r\nMrs. Berger is strongly advised to maintain a balanced diet and ensure adequate sources of \r\nVitamin B12. Furthermore, regular medical check-ups are recommended to monitor the \r\nVitamin B12 status and adjust the therapy as necessary. \r\n\r\nKind regards, \r\n\r\nDr. Anna Müller Medical Practice Dr. Müller \r\n\r\n \r\n\r\n\r\n"
+    "sofaString" : "\n\n[Arztpraxis Dr. Müller]  \n[Dresdener Str. 17]  \n[45678 Berlin]  \n[Tel: 03520-55428]  \n[E-Mail: info@drmueller.de] \n\nMedical Report \n\nPatient: Mr. Peter Paulus, born on September 3, 1950, residing at Kastanienallee 8, 10435 \nBerlin, patient number 348762, was admitted for staging at the initial diagnosis of colon \ncancer. \n\nHistory:  \nMr. Paulus reported persistent changes in bowel habits, occasional blood in the stool, and \nunintended weight loss in recent months. These symptoms prompted further diagnostic \nevaluation. \n\nFindings:  \nA colonoscopy revealed a malignant tumor in the ascending colon. Computed tomography of \nthe abdomen and thorax was performed to exclude possible metastases and to determine \nthe stage of the disease. No distant metastases were found. \n\nDiagnosis:  \nColon cancer, localized in the ascending colon, clinical stage II. \n\nTreatment:  \nThe decision was made for surgical resection of the affected colon section. The surgery is \nplanned to completely remove the tumor and take the surrounding lymph tissue for \nhistological examination. Postoperative adjuvant chemotherapy is considered depending on \nthe results of the histopathological analysis. \n\nFollow-up:  \nMr. Paulus will be closely monitored after the surgery to secure recovery and detect early \nsigns of possible complications. Regular follow-up appointments are set to assess the \nresponse to the therapy and minimize the risk of recurrence. \n\nRecommendations:  \nMr. Paulus is recommended to keep physically gentle post-operatively and maintain a \nbalanced, high-fiber diet. Further, he should regularly attend follow-up examinations and \nwatch for new symptoms. \n\nKind regards, \n\nDr. Anna Müller  \nMedical Practice Dr. Müller \n\n \n\n\n"
   } ],
   "%VIEWS" : {
     "_InitialView" : {
       "%SOFA" : 2,
-      "%MEMBERS" : [ 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 330, 333, 336, 339, 342, 345, 348, 351, 354, 357, 360, 363, 366, 369, 372, 375, 378, 381, 384, 387, 390, 393, 396, 399, 402, 405, 408, 411, 414, 417, 420, 423, 426 ]
+      "%MEMBERS" : [ 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 347, 350, 353, 356, 359, 362, 365, 368, 371, 374, 377, 380, 383, 386, 389, 392, 395, 398, 401, 404, 407, 410, 413, 416, 419, 422, 425, 428, 431, 434, 437, 440, 443, 446, 449, 452 ]
     }
   }
 }
