@@ -4,6 +4,8 @@
 > This repository is just a snapshot of an ongoing development process. This repository is not under active development and will be replaced by a newer and actively developed version in the future.
 > 
 > **Use for research purposes only!**
+>
+> The newest version of this tool can be found here: [KatherLab/LLMAIx](https://github.com/KatherLab/LLMAIx)
 
 ![alt text](image.png)
 
@@ -99,7 +101,11 @@ The output extends the input zip file with a csv file with columns `report` with
 ## Additional Notes
 
 > An active internet connection is currently required. This is because some javascript and CSS libraries are taken directly from CDNs. To change that please download them and replace the respective occurrences in the html files.
+> 
 
+## Citation
+
+This repository is part of the paper [Anonymizing medical documents with local, privacy preserving large language models: The LLM-Anonymizer](https://doi.org/10.1101/2024.06.11.24308355 )
 
 ## Example Grammar
 
